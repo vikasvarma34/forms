@@ -1,0 +1,519 @@
+{
+  "formName": "OCD",
+  "formOrder": "6",
+  "title": "Obsessive-Compulsive Disorder",
+  "description": "Please carefully read and answer all questions presented in this form. It is essential to consider each question thoroughly to ensure accurate and reflective responses.",
+  "tier": "tier-1",
+  "mandatory": "no",
+  "questions": [
+    {
+      "questionId": "2840b22a-3d92-48ba-92ab-e61889889b62",
+      "order": 1,
+      "questionText": "Do you frequently have repetitive thoughts, urges, or images that are unwanted or intrusive and cause significant anxiety or distress?",
+      "type": "single-choice",
+      "isOptional": false,
+      "options": [
+        {
+          "optionId": "565edcd5-be8a-479a-926f-f25a0109b13d",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "13fbff05-4efc-4a7b-be6e-726bd000ff6f",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "7"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "846df660-5d47-4883-b52f-cc015ee91cd7",
+      "order": 2,
+      "questionText": "Can you give me some examples? Do you experience any of the following:",
+      "type": "multiple-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "328a55cd-9e0e-4ff0-b4cc-404445091883",
+          "value": "1",
+          "text": "Doubts about whether you’ve done things properly (e.g., locked door, turned off stove)",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "72367a78-6405-4f97-ac2b-03862e791186",
+          "value": "1",
+          "text": "Thoughts about being dirty or contaminated (e.g., dirt, germs, chemicals, feces, contracting HIV)",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "caa4dc07-170f-42e2-956d-e1aab3c337fb",
+          "value": "1",
+          "text": "Disturbing thoughts about intentionally or accidently harming yourself or others without wanting to (e.g., stabbing loved one, jumping off balcony, hitting pedestrians)",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "d17ba6d1-25ef-47c6-a2ff-cfc394b1626d",
+          "value": "1",
+          "text": "Unwanted and disturbing thoughts or images of a sexual nature (e.g., fears that you might be a pedophile)",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "4c557701-93e2-43c7-97ce-75ae5918edd7",
+          "value": "1",
+          "text": "Unwanted and disturbing thoughts or images of a religious nature (e.g., saying blasphemous things, images of the devil, doubts about doing the right/moral thing)",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "33659623-ddd8-4b0b-bc7e-11baa8d039c4",
+          "value": "1",
+          "text": "Other",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": "1"
+    },
+    {
+      "questionId": "2cf56cda-68c5-4007-b0c7-31b6492dd49f",
+      "order": 3,
+      "questionText": "When you have these thoughts, do you try to ignore or suppress them, or neutralize them by thinking or doing something?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "5c234570-85ba-4b76-8366-1ecf70f3338a",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "f740bd13-231e-429a-b182-af1806edf9f2",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "7"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "070e1adb-a440-437a-9827-605aeb7c3dc3",
+      "order": 4,
+      "questionText": "Do you push them out of your mind?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "3"
+    },
+    {
+      "questionId": "e5736318-e54d-4410-b42d-5e37b0cb8a16",
+      "order": 5,
+      "questionText": "Do you perform a specific action?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "3"
+    },
+    {
+      "questionId": "3cd2fd56-8468-4d12-969c-30c9421d69e5",
+      "order": 6,
+      "questionText": "Do you think or say something?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "3"
+    },
+    {
+      "questionId": "118975f4-3e10-4768-b1f7-9410d40f7547",
+      "order": 7,
+      "questionText": "Do you engage in any repetitive behaviours or mental rituals that you can’t resist doing in response to upsetting thoughts or because of rules that you must follow?",
+      "type": "single-choice",
+      "isOptional": false,
+      "options": [
+        {
+          "optionId": "39ec0dd3-bb9f-418d-ac96-c5f8689342e5",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "eb38371e-24ec-4278-b2bd-fc46a305b7e1",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "10"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "f187d225-af1e-4e38-a1a3-6295df0d7242",
+      "order": 8,
+      "questionText": "Can you give me some examples? Do you engage in any of the following:",
+      "type": "multiple-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "3d1193de-ffcf-4d5d-986d-51e747e5e4c0",
+          "value": "1",
+          "text": "Wash or clean excessively (e.g., hand washing, rituals around showering, washing dishes or surfaces in your home)",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "300e9779-7a28-4fa8-a442-f2fda2727115",
+          "value": "1",
+          "text": "Check things over and over (e.g., locks, stoves, light switches, alarm system)",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "4311fb1e-92ac-4324-b756-12956ecf3a29",
+          "value": "1",
+          "text": "Do mental acts or behaviours (e.g., repeat words or phrases, counting, prayers, intentionally replace a bad thought with a good thought)",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "e8a90bf5-3447-43f6-b26f-eb318728baa9",
+          "value": "1",
+          "text": "Rigidly follow routines or rules (e.g., morning/nighttime routine, cooking routine, work routine, eating according to a strict ritual)",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "874c9ce8-6205-46ad-97ec-2895601fd0f8",
+          "value": "1",
+          "text": "Order or arrange things (e.g., items on tables/bookshelves, picture frames, items in drawers/cupboards/closets)",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "cad31dbd-ad33-46c1-8b1a-0ba652b73143",
+          "value": "1",
+          "text": "Do something repeatedly (e.g., rewriting or rereading materials, repeatedly touching or rubbing items, turning appliances on and off, going in and out of the doorway)",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "946fc38c-a43d-45bd-bd5b-6521d52ac8f8",
+          "value": "1",
+          "text": "Other",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": "7"
+    },
+    {
+      "questionId": "47be4acb-21cd-4ad8-9fc6-971f7a47c8a5",
+      "order": 9,
+      "questionText": "Do you do these behaviours or mental rituals in an attempt to reduce your distress or to prevent something bad from happening?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "b55bc553-4fc2-45b5-9c2a-e689f9070a8c",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "c81fa4b3-3b0d-4808-bdfb-f7d121f493b9",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "c52ff494-d756-49df-9f59-11325d5d2c93",
+      "order": 10,
+      "questionText": "Do these thoughts or behaviours take up a lot of time?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "b55bc553-4fc2-45b5-9c2a-e689f9070a8c",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "c81fa4b3-3b0d-4808-bdfb-f7d121f493b9",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "12"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "5c7fa8f1-e7af-468d-86bb-be5a79cc1474",
+      "order": 11,
+      "questionText": "How long do they take? Do they take more than one hour per day?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "10"
+    },
+    {
+      "questionId": "b550f86d-5a16-48dc-bd63-f1fdc7a0dea2",
+      "order": 12,
+      "questionText": "Is it very upsetting for you that you have these symptoms?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "452ba1dd-45f7-43d9-a15f-f0b0f62f1db8",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "25303db9-1006-43fb-abd4-32ce6d971ea7",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "16"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "e177f738-3acf-46ea-b60d-08bbc2d49a65",
+      "order": 13,
+      "questionText": "Have the symptoms interfered with your ability to carry out daily activities?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "ef926855-bac4-40af-b008-f06c1559be3d",
+          "value": "1",
+          "text": "Yes",
+          "jump": "true",
+          "jumpTo": "14"
+        },
+        {
+          "optionId": "4aa9d926-5582-47c7-aba3-2360f2835f8e",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "15"
+        }
+      ],
+      "parentId": "12"
+    },
+    {
+      "questionId": "cd29c6c2-129e-492a-a924-8c13d994f0ca",
+      "order": 14,
+      "questionText": "In what ways have they interfered?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "13"
+    },
+    {
+      "questionId": "cec1349f-1061-41a6-a81f-01129e4912ae",
+      "order": 15,
+      "questionText": "Have they made it hard for you to work, socialize, go to school, or take care of things at home?",
+      "type": "single-choice",
+      "isOptional": false,
+      "options": [
+        {
+          "optionId": "93c0725d-786c-47b1-8158-61281717d2b5",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "1de51582-d09b-44a4-aae7-184457b21f2d",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": "12"
+    },
+    {
+      "questionId": "2db56927-ab86-4704-929c-89870fd355eb",
+      "order": 16,
+      "questionText": "Were you using any substances just before these symptoms began? Do you think this may have caused your symptoms or made them worse?",
+      "type": "single-choice",
+      "isOptional": false,
+      "options": [
+        {
+          "optionId": "93c0725d-786c-47b1-8158-61281717d2b5",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "1de51582-d09b-44a4-aae7-184457b21f2d",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "18"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "a4cba80d-ac2e-4acc-aa91-09ed4a716796",
+      "order": 17,
+      "questionText": "Did the symptoms persist even once the substance was not in your body anymore?",
+      "type": "single-choice",
+      "isOptional": false,
+      "options": [
+        {
+          "optionId": "93c0725d-786c-47b1-8158-61281717d2b5",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "1de51582-d09b-44a4-aae7-184457b21f2d",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": "18"
+        }
+      ],
+      "parentId": "16"
+    },
+    {
+      "questionId": "06cbaabf-0027-4452-806b-4ce5eef1ed50",
+      "order": 18,
+      "questionText": "Did you have any medical conditions just before these symptoms began? Do you think this may have caused your symptoms or made them worse?",
+      "type": "single-choice",
+      "isOptional": false,
+      "options": [
+        {
+          "optionId": "93c0725d-786c-47b1-8158-61281717d2b5",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "1de51582-d09b-44a4-aae7-184457b21f2d",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "0"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "9fdc75b9-0dc4-46f1-820a-c901524a1d77",
+      "order": 19,
+      "questionText": "How convinced are you that your intrusive, unwanted thoughts, urges or images are true?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "87fd96c0-3849-49a5-badb-820ba11dac6a",
+          "value": "0",
+          "text": "They are likely not true",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "66eccb9b-daff-42ed-b510-b081790785b9",
+          "value": "1",
+          "text": "May or may not be true",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "2c779d43-6e6b-41d9-9e42-b5f5807ca0f0",
+          "value": "2",
+          "text": "Probably true",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "89123b4e-c3de-494a-96d0-ccb1b6286c6f",
+          "value": "3",
+          "text": "Definitely true",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "ac060511-3967-4235-89fe-4992b2c04b34",
+      "order": 20,
+      "questionText": "Have you ever been diagnosed with a tic disorder?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "5d4440df-7138-4bcd-a43b-4c3871fc3035",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "875dd021-9875-4747-a229-d9d0f50a5cb1",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "311a5fa3-9e04-46fb-816c-ef6ccf85bbe9",
+      "order": 21,
+      "questionText": "How old were you when these symptoms first began? (number of years)",
+      "type": "text",
+      "isOptional": false,
+      "options": [],
+      "parentId": ""
+    },
+    {
+      "questionId": "d82b5d08-7f6c-4b0a-b3a5-7b7f45c75068",
+      "order": 22,
+      "questionText": "How old were you when these symptoms began to be a problem for you? (number of years)",
+      "type": "text",
+      "isOptional": false,
+      "options": [],
+      "parentId": ""
+    },
+    {
+      "questionId": "c69b0988-f9e6-40bb-97dc-c0943d3daaf7",
+      "order": 23,
+      "questionText": "On a scale from 0 to 10, 0 meaning not at all and 10 meaning extremely, how much are you bothered by your symptoms?",
+      "type": "text",
+      "isOptional": false,
+      "options": [],
+      "parentId": ""
+    }
+  ]
+}

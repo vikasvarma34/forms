@@ -1,0 +1,434 @@
+{
+  "formName": "GAD",
+  "formOrder": "10",
+  "title": "Generalized Anxiety Disorder",
+  "description": "Please carefully read and answer all questions presented in this form. It is essential to consider each question thoroughly to ensure accurate and reflective responses. ",
+  "tier": "tier-1",
+  "mandatory": "no",
+  "questions": [
+    {
+      "questionId": "ccb90cf4-5a69-4623-9408-64ff392f9c7f",
+      "order": 1,
+      "questionText": "Over the past 6 months or longer, have you been excessively anxious and worried about various things?",
+      "type": "single-choice",
+      "isOptional": false,
+      "options": [
+        {
+          "optionId": "90549fa8-9139-4a51-90b7-8d3b61827747",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "680c2be0-eb90-4e55-9d6b-ab14242fe578",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "0"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "59ae2fde-8ed2-4907-b9ce-f7be3de19c11",
+      "order": 2,
+      "questionText": "What sort of things do you worry about?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "1"
+    },
+    {
+      "questionId": "7af18aaf-a71a-4da6-9306-50a4df61a1f1",
+      "order": 3,
+      "questionText": "When things are going well, do you still tend to worry a lot?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "1"
+    },
+    {
+      "questionId": "cbd67028-0019-495d-835c-048090a90142",
+      "order": 4,
+      "questionText": "Do people tell you that you worry more than you need to?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "1"
+    },
+    {
+      "questionId": "3065e462-058a-43b1-b8fa-ff1d928894d2",
+      "order": 5,
+      "questionText": "Do you also excessively worry about:",
+      "type": "multiple-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "d5c7df0e-695a-4a01-81d6-afb2befbc29e",
+          "value": "1",
+          "text": "Daily matters",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "c28527f9-88fd-4a8f-b99f-0c455096ecd7",
+          "value": "1",
+          "text": "Work or school",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "a9d3e66d-e72c-4e25-b3d8-2d55f5b73e4c",
+          "value": "1",
+          "text": "Finances",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "af28a47b-5310-475d-a1f3-52ca95e3139f",
+          "value": "1",
+          "text": "Your health/well-being",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "e49bdd1b-1450-4232-8d57-10fab2850b39",
+          "value": "1",
+          "text": "Health/well-being of others",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "602d6c18-cf9a-4fae-989a-f4cdfe0b9fef",
+          "value": "1",
+          "text": "Relationships",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "95efc6b3-c7c1-465d-ac20-217ad2481712",
+          "value": "1",
+          "text": "The future",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "561ee7ca-4051-4341-91dc-87a4332dd6fd",
+          "value": "1",
+          "text": "Other",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "8617b50c-efb1-4720-bc13-8e1506874f9d",
+      "order": 6,
+      "questionText": "Has this anxiety and worry been affecting you more days than not over the past 6 months?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "96b78b05-4cfb-4c04-b4b1-6a079833d0ac",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "42b7836a-a25f-4fd0-8023-7c0e438a69ee",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "0"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "a78dea59-ebfc-4fa3-bce7-efd157a03d4a",
+      "order": 7,
+      "questionText": "Do you find it hard to control your worry?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "19355053-7096-42c6-9dc7-3a822e313ce7",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "a64a6728-1700-4de2-a4d8-5b90a4d95389",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "0"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "2b3e7d06-066b-4ffc-8add-59982c1060f7",
+      "order": 8,
+      "questionText": "Once you start worrying, are you able to stop?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "19355053-7096-42c6-9dc7-3a822e313ce7",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "a64a6728-1700-4de2-a4d8-5b90a4d95389",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": "0"
+        }
+      ],
+      "parentId": "7"
+    },
+    {
+      "questionId": "e1886f4b-63f2-4c3e-b9f7-32749d2c2dae",
+      "order": 9,
+      "questionText": "What do you do to try to “turn off” the worry?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "7"
+    },
+    {
+      "questionId": "44bcafcc-e017-4c38-b6fe-1058baed0356",
+      "order": 10,
+      "questionText": "How effective are these strategies?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "7"
+    },
+    {
+      "questionId": "1567cd96-2438-418a-a82c-6a962785510d",
+      "order": 11,
+      "questionText": "Over the past 6 months, when you’ve been excessively anxious and worried, have you:",
+      "type": "multiple-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "368b23ef-b15b-4f3f-bb0b-949a67ff0af3",
+          "value": "1",
+          "text": "Been restless, keyed up, or on edge",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "0b9a0018-e0a9-4a0f-9025-dea2c6d30fc7",
+          "value": "1",
+          "text": "Been easily fatigued",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "2edb017e-8ccf-4f47-bd41-90236c5ec24d",
+          "value": "1",
+          "text": "Had problems with concentration or having your mind go blank",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "dcf5871c-63ee-4c96-bd9b-0d56f0ff7f26",
+          "value": "1",
+          "text": "Been irritable",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "5cc55ab7-3fea-4a23-8b38-3b8e8290393d",
+          "value": "1",
+          "text": "Experienced muscle tension",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "2493fae4-a866-402a-895b-653fedf14a4a",
+          "value": "1",
+          "text": "Had difficulty with sleep, such as falling asleep, staying asleep, waking up early, or not getting a restful sleep",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "64cf0573-024d-4e97-9793-d0a3901b40ca",
+      "order": 12,
+      "questionText": "Is it very upsetting for you that you have these symptoms?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "d6529629-4df1-4755-855c-3e6c82580fc6",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "1a7f05af-41b1-4f54-b67b-1e85f505ce6c",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "0"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "d354d311-6c13-4147-b876-b5c2a6482680",
+      "order": 13,
+      "questionText": "Have the symptoms interfered with your ability to carry out daily activities?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "d88e5509-d251-4bed-ab87-ab741f4d8b80",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "3a4a4f57-5839-489c-8d09-dbf51b54e8b7",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": "12"
+    },
+    {
+      "questionId": "4719d540-5b4e-4b17-8d75-4e8b22ed866a",
+      "order": 14,
+      "questionText": "In what ways have they interfered?",
+      "type": "text",
+      "isOptional": false,
+      "options": [],
+      "parentId": "13"
+    },
+    {
+      "questionId": "24452d8c-3494-4171-8e4f-1afa99fbde62",
+      "order": 15,
+      "questionText": "Have they made it hard for you to work, socialize, go to school, or take care of things at home?",
+      "type": "text",
+      "isOptional": false,
+      "options": [],
+      "parentId": "13"
+    },
+    {
+      "questionId": "f3316964-6716-4bdf-8a80-1df6fa4487b3",
+      "order": 16,
+      "questionText": "Were you using any substances just before these symptoms began? Do you think this may have caused your symptoms or made them worse?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "e50a67a7-822a-4f13-8201-8177930a3331",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "18db28e1-5619-42bd-8930-493d44f8f3d1",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "18"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "41d05ab9-c05b-4dfa-bf2f-be2ff45c73fe",
+      "order": 17,
+      "questionText": "Did the symptoms persist even once the substance was not in your body anymore?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "e50a67a7-822a-4f13-8201-8177930a3331",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "18db28e1-5619-42bd-8930-493d44f8f3d1",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": "19"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "d49fdf6d-4d03-4fd6-883a-dbeba9192ee5",
+      "order": 18,
+      "questionText": "Did you have any medical conditions just before these symptoms began? Do you think this may have caused your symptoms or made them worse?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "e50a67a7-822a-4f13-8201-8177930a3331",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "18db28e1-5619-42bd-8930-493d44f8f3d1",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "0"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "8b4990d6-7906-46a0-9caf-340cce931a10",
+      "order": 19,
+      "questionText": "How old were you when these symptoms first began? (number of years)",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": ""
+    },
+    {
+      "questionId": "e9e5c186-485b-43a1-adea-7273681f2d9d",
+      "order": 20,
+      "questionText": "How old were you when these symptoms began to be a problem for you? (number of years)",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": ""
+    },
+    {
+      "questionId": "a5235f40-b95e-4b2c-92c1-3a129862cf19",
+      "order": 21,
+      "questionText": "On a scale from 0 to 10, 0 meaning not at all and 10 meaning extremely, how much are you bothered by your symptoms?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": ""
+    }
+  ]
+}

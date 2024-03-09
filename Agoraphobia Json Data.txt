@@ -1,0 +1,335 @@
+{
+  "formName": "Agoraphobia",
+  "formOrder": "8",
+  "title": "Agoraphobia",
+  "description": "Please carefully read and answer all questions presented in this form. It is essential to consider each question thoroughly to ensure accurate and reflective responses.",
+  "tier": "tier-1",
+  "mandatory": "yes",
+  "questions": [
+    {
+      "questionId": "abc78324-0987-46fd-8b06-48330f92207f",
+      "order": 1,
+      "questionText": "Do you fear or avoid any situations because you might not be able to escape or get help if you were to have panic, incapacitating, or embarrassing symptoms?",
+      "type": "single-choice",
+      "isOptional": false,
+      "options": [
+        {
+          "optionId": "7918712f-cf90-437b-ba45-f671ae9b7dbc",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "f83eb7c1-a103-4678-96bd-53dfd08394cd",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "0"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "9b9762f3-6e75-42c0-9f0e-19506ad330c9",
+      "order": 2,
+      "questionText": "Can you tell me more about this fear?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "1"
+    },
+    {
+      "questionId": "d894cb94-fa07-4b1e-a0b6-577c437e0ec9",
+      "order": 3,
+      "questionText": "What types of situations do you avoid?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "1"
+    },
+    {
+      "questionId": "006b9bd5-1a10-4233-a512-c2659f3c788a",
+      "order": 4,
+      "questionText": "Does this fear come up in any of the following situations:",
+      "type": "multiple-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "2c1d404e-a3cc-443f-9056-480ae3a5aef5",
+          "value": "1",
+          "text": "Using transportation (e.g., cars, buses, trains, planes)",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "e515cea7-bb45-463a-b626-8282606d82dd",
+          "value": "1",
+          "text": "Being in open spaces (e.g., parking lots, fields, bridges)",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "5bb424d5-afc0-40c2-bdce-87c7edc40cc1",
+          "value": "1",
+          "text": "Being in enclosed places (e.g., shops, theatres, elevators)",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "4875d858-f31e-4f40-8be6-ed252cdca2b6",
+          "value": "1",
+          "text": "Standing in a line or crowd",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "5b95cbfa-9cd0-4ca0-ab2b-0a3ec99801ae",
+          "value": "1",
+          "text": "Leaving your home alone",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "91361175-a830-45b4-8c13-1d5886dc8b4f",
+      "order": 5,
+      "questionText": "Do these situations almost always cause you fear or anxiety?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "5a52d320-df4e-443e-8fe9-bcd62f4ba059",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "55b29dd0-2736-4f23-8521-c87e18fda8b5",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "0"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "5f4ed774-63ec-44a0-a648-81a9a5eb36db",
+      "order": 6,
+      "questionText": "When you are faced with these situations, do you:",
+      "type": "multiple-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "1710739f-4155-40c4-bf59-fa68b0542507",
+          "value": "1",
+          "text": "Try to avoid them",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "0b80bbbf-fc34-44d9-9a63-38a617ed484d",
+          "value": "1",
+          "text": "Endure them with a lot of anxiety or distress",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "4c5ef072-234d-49c5-8a19-e6081fdf1b75",
+          "value": "1",
+          "text": "Need a friend or family member to accompany you",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "da463613-2b27-4a11-822a-e3b10c9ed9c9",
+      "order": 7,
+      "questionText": "Do you feel as though your fear or anxiety about these situations is more than it should be?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "d1cc2e96-b812-44f4-86be-7a9ddc9b1e31",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "fbe6f322-027d-4485-9d35-40d4b562651c",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "0"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "a70de870-c05f-4440-9119-76dc65802c3c",
+      "order": 8,
+      "questionText": "What makes you say that?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "7"
+    },
+    {
+      "questionId": "0c2d35e1-594d-43a5-9aee-9d5396ad4931",
+      "order": 9,
+      "questionText": "Has this been a problem for you for over 6 months?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "e3ff1e55-6918-4bb8-ac77-9702211153c2",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "c6adac83-ebbd-49ec-995d-8d055002da39",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "0"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "7066eac4-921a-4e6c-85ad-a5cb9a3b7538",
+      "order": 10,
+      "questionText": "How long has this been a problem for you?",
+      "type": "text",
+      "isOptional": false,
+      "options": [],
+      "parentId": "9"
+    },
+    {
+      "questionId": "4b706769-e71c-4f19-80c9-c697c62ca4c1",
+      "order": 11,
+      "questionText": "Is it very upsetting for you that you have these symptoms?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "96dca04e-194e-40ce-afe6-1610101b471b",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "56ec66c4-0516-4d1d-91fd-5c193ceaf8fd",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "0"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "18861de5-3064-4796-b00a-080e556c4964",
+      "order": 12,
+      "questionText": "Have the symptoms interfered with your ability to carry out daily activities?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "bf55c110-e38d-41dd-bffe-23dcb3f45ef3",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "a6755054-d3c8-4098-ac38-5e5b325070c0",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "15"
+        }
+      ],
+      "parentId": "11"
+    },
+    {
+      "questionId": "cbb5c416-e26c-4111-a1b0-c412255547b4",
+      "order": 13,
+      "questionText": "In what ways have they interfered?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "12"
+    },
+    {
+      "questionId": "69a9f428-560a-4682-bd69-d4ae314a6ce3",
+      "order": 14,
+      "questionText": "Have they made it hard for you to work, socialize, go to school, or take care of things at home?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "12"
+    },
+    {
+      "questionId": "6984fe15-d1b9-4c96-b375-ebecc2567168",
+      "order": 15,
+      "questionText": "Did you have any medical conditions just before these symptoms began? Do you think this may have caused your symptoms or made them worse?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "b18ae1e7-bfa4-404f-a805-1d86310c5164",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "e13d4d82-544e-45c7-916e-56d6fad59f69",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "0"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "450c1707-0847-4049-8848-4926a8ec5ff5",
+      "order": 16,
+      "questionText": "How old were you when these symptoms first began? (number of years)",
+      "type": "text",
+      "isOptional": false,
+      "options": [],
+      "parentId": ""
+    },
+    {
+      "questionId": "f8b60f53-dde9-438f-83ba-21ce71d768fb",
+      "order": 17,
+      "questionText": "How old were you when these symptoms began to be a problem for you? (number of years)",
+      "type": "text",
+      "isOptional": false,
+      "options": [],
+      "parentId": ""
+    },
+    {
+      "questionId": "8f34b343-d224-4133-819d-918d56a9c433",
+      "order": 18,
+      "questionText": "On a scale from 0 to 10, 0 meaning not at all and 10 meaning extremely, how much are you bothered by your symptoms?",
+      "type": "text",
+      "isOptional": false,
+      "options": [],
+      "parentId": ""
+    }
+  ]
+}

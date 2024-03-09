@@ -1,0 +1,277 @@
+{
+  "formName": "IAD",
+  "formOrder": "11",
+  "title": "Illness Anxiety Disorder",
+  "description": "Please carefully read and answer all questions presented in this form. It is essential to consider each question thoroughly to ensure accurate and reflective responses.",
+  "tier": "tier-1",
+  "mandatory": "no",
+  "questions": [
+    {
+      "questionId": "24734534-cbc6-41b8-be1f-11c57a9d714b",
+      "order": 1,
+      "questionText": "Are you preoccupied with having or developing a serious illness?",
+      "type": "single-choice",
+      "isOptional": false,
+      "options": [
+        {
+          "optionId": "82aa79a3-9d62-43f1-8d43-acf57058d98f",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "cb93d895-c5da-4f04-9051-4bbc1967bea1",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "0"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "5cf4a881-a566-49c1-b39d-dd1bec097f26",
+      "order": 2,
+      "questionText": "What illness are you concerned about?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "1"
+    },
+    {
+      "questionId": "0fe3f70a-de19-4686-b21d-0cb62efbe348",
+      "order": 3,
+      "questionText": "Are you concerned about any other illnesses?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "1"
+    },
+    {
+      "questionId": "24b5ee78-14a4-40ed-8add-f734e59f0b1a",
+      "order": 4,
+      "questionText": "Do you currently experience any physical symptoms that are related to this concern?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "fadc8096-39b1-4462-a096-797f23a1a6e8",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "d03100d2-3989-4f6f-a1a0-ea7a49c79bf5",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "0"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "2116c760-233b-43ac-b63a-5d6ad47a12b4",
+      "order": 5,
+      "questionText": "What kind of symptoms are you experiencing (e.g., pain, fatigue, weakness, shortness of breath, dizziness)?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "4"
+    },
+    {
+      "questionId": "bb68a543-3352-4e6b-afe2-562408620dd3",
+      "order": 6,
+      "questionText": "Have you been diagnosed with a medical condition that is related to these symptoms? If so, what has your doctor said?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "4"
+    },
+    {
+      "questionId": "56456ca8-3afe-48f8-8e52-54d649357ed0",
+      "order": 7,
+      "questionText": "Have they ordered more tests or made referrals?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "4"
+    },
+    {
+      "questionId": "d0d51ec8-a814-43e2-818e-a882edfddca1",
+      "order": 8,
+      "questionText": "Do your concerns about your health cause you significant anxiety?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "0986249d-38b9-447d-a161-2946ea866c24",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "5677a9e3-5968-451b-84cf-1218d3bb67c2",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "0"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "e8d3efb2-8564-42fe-8310-e5bd2dc7b251",
+      "order": 9,
+      "questionText": "Do other people think that you’re very anxious about your health?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "22cbd7d9-fd5c-40fa-b400-430d5565b8f0",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "645f7cd5-e353-4f27-8793-7f9b9e111059",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": "8"
+    },
+    {
+      "questionId": "cc43a0c1-d092-4fbf-b506-3f795ea068a7",
+      "order": 10,
+      "questionText": "What does your doctor think?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "8"
+    },
+    {
+      "questionId": "c9df31fd-f1f9-4597-bb5a-f733455978f9",
+      "order": 11,
+      "questionText": "Do you get anxious when you hear that someone else is sick?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "8"
+    },
+    {
+      "questionId": "0e8746f2-73b1-447b-824a-a3969c03dffa",
+      "order": 12,
+      "questionText": "Do you repeatedly engage in any behaviours to reduce your anxiety about your health, such as checking your body, seeing your doctor, or reading health-related information?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "ca646f84-768c-4b83-8fe3-8cc579d498e9",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "8129bd80-19ab-47d0-809d-118e92129b58",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "b47c27fb-41d9-4eba-9837-97ce69357225",
+      "order": 13,
+      "questionText": "Does your anxiety about your health cause you to avoid any situations or activities, such as going to the hospital or doctor or visiting someone who is sick?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "ca646f84-768c-4b83-8fe3-8cc579d498e9",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "8129bd80-19ab-47d0-809d-118e92129b58",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "48ce6074-127b-4701-90f9-e3ff88512b3f",
+      "order": 14,
+      "questionText": "Has this been a problem for you for more than 6 months?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "ca646f84-768c-4b83-8fe3-8cc579d498e9",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "8129bd80-19ab-47d0-809d-118e92129b58",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "0"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "44d68810-ae4e-4fbf-8797-67712f6ca373",
+      "order": 15,
+      "questionText": "How long has this been a problem for you?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "14"
+    },
+    {
+      "questionId": "80abfc90-4c09-4f87-9d83-6f6ec7d3f227",
+      "order": 16,
+      "questionText": "How old were you when these symptoms first began? (number of years)",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": ""
+    },
+    {
+      "questionId": "1c64a5ff-59ac-421a-9b6d-3d8154066831",
+      "order": 17,
+      "questionText": "How old were you when these symptoms began to be a problem for you? (number of years)",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": ""
+    },
+    {
+      "questionId": "9c058e64-8937-4827-b124-8e7531490e7f",
+      "order": 18,
+      "questionText": "On a scale from 0 to 10, 0 meaning not at all and 10 meaning extremely, how much are you bothered by your symptoms?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": ""
+    }
+  ]
+}

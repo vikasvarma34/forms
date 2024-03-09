@@ -1,0 +1,1792 @@
+{
+  "formName": "PTSD",
+  "formOrder": "9",
+  "title": "Posttraumatic Stress Disorder and Acute Stress Disorder",
+  "description": "Please carefully read and answer all questions presented in this form. It is essential to consider each question thoroughly to ensure accurate and reflective responses.",
+  "tier": "tier-1",
+  "mandatory": "no",
+  "questions": [
+    {
+      "questionId": "ca80b5fa-c393-47fc-9b6f-1149747efdb1",
+      "order": 1,
+      "questionText": "At any point in your life, have you been exposed to a traumatic event, such as sexual or physical assault or abuse, a serious accident, natural disaster, war, or learning about something like this happening to someone that you’re close to?",
+      "type": "single-choice",
+      "isOptional": false,
+      "options": [
+        {
+          "optionId": "a6027646-4eb7-4956-a2ed-562d4f25cf8d",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "9a549594-d3c6-4660-b429-f0f35a88e56f",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "0"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "4ff459c7-12f9-4406-9b7a-715d0e3abb7c",
+      "order": 2,
+      "questionText": "Can you tell me about what happened?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "1"
+    },
+    {
+      "questionId": "1e4884aa-6609-43fc-8b38-1434aef1c0d8",
+      "order": 3,
+      "questionText": "How many traumatic events have you experienced in your life?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "d07a6fa8-9fd2-41b0-b1af-fdbfb653a611",
+          "value": "1",
+          "text": "1",
+          "jump": "true",
+          "jumpTo": "4"
+        },
+        {
+          "optionId": "d253fd3d-4b09-4269-a251-35bd56642ce2",
+          "value": "2",
+          "text": "2",
+          "jump": "true",
+          "jumpTo": "5"
+        },
+        {
+          "optionId": "d603cb3f-e249-4dd7-9acd-612048f7874e",
+          "value": "3",
+          "text": "3",
+          "jump": "true",
+          "jumpTo": "5"
+        },
+        {
+          "optionId": "e34a194a-e827-4399-94cc-476bf288c2b7",
+          "value": "4",
+          "text": "4",
+          "jump": "true",
+          "jumpTo": "5"
+        },
+        {
+          "optionId": "1fdfc24b-abb5-4681-97df-a7ade7de9150",
+          "value": "5",
+          "text": "5 or more",
+          "jump": "true",
+          "jumpTo": "5"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "4e8f6f7c-2de2-416d-aa1d-7e97f0a7da5f",
+      "order": 4,
+      "questionText": "When did the traumatic event you described occur?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "cc9ff738-ad38-4bd6-aa74-2b40190ad4a6",
+          "value": "0",
+          "text": "Within the last month",
+          "jump": "true",
+          "jumpTo": "55"
+        },
+        {
+          "optionId": "efe29b28-67b9-4e42-a1e9-15fc737386ab",
+          "value": "1",
+          "text": "More than 1 month ago",
+          "jump": "true",
+          "jumpTo": "6"
+        }
+      ],
+      "parentId": "3"
+    },
+    {
+      "questionId": "bbfa0959-249d-45a5-a3df-987f338285a3",
+      "order": 5,
+      "questionText": "Out of all the traumatic events you experienced, how long ago did the one that is currently causing you the most distress occur?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "cc9ff738-ad38-4bd6-aa74-2b40190ad4a6",
+          "value": "0",
+          "text": "Within the last month",
+          "jump": "true",
+          "jumpTo": "55"
+        },
+        {
+          "optionId": "efe29b28-67b9-4e42-a1e9-15fc737386ab",
+          "value": "1",
+          "text": "More than 1 month ago",
+          "jump": "false",
+          "jumpTo": "58"
+        }
+      ],
+      "parentId": "3"
+    },
+    {
+      "questionId": "f5231007-4a9a-452d-9846-5103fc76c5b8",
+      "order": 6,
+      "questionText": "Over the past month, have you had upsetting memories of that traumatic event when you didn’t want to ?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "cb57c241-d718-4a92-9b09-db53bf73e1b3",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "5ad0f323-3db1-416f-9235-90807279d82c",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "a7c307cd-effa-4c68-8043-4f2af63d6b6d",
+      "order": 7,
+      "questionText": "Over the past month, have you had upsetting dreams related to that traumatic event ?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "cb57c241-d718-4a92-9b09-db53bf73e1b3",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "5ad0f323-3db1-416f-9235-90807279d82c",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "43d4a1e6-f6c6-455a-b15e-aef932f15ca8",
+      "order": 8,
+      "questionText": "Over the past month, have you felt or acted as though that traumatic event was happening again?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "cb57c241-d718-4a92-9b09-db53bf73e1b3",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "5ad0f323-3db1-416f-9235-90807279d82c",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "ff729052-38ff-445b-96c5-29c2f05f7aa0",
+      "order": 9,
+      "questionText": "Over the past month, have you become very upset when reminded of that traumatic event ?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "cb57c241-d718-4a92-9b09-db53bf73e1b3",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "5ad0f323-3db1-416f-9235-90807279d82c",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "12"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "0b6a6e35-6e06-49bc-9d6b-8495da8fb245",
+      "order": 10,
+      "questionText": "What kinds of things remind you of the event?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "9"
+    },
+    {
+      "questionId": "07b2d520-01f0-4a3f-bef5-5810fdf4e336",
+      "order": 11,
+      "questionText": "How do you feel when reminded of the event?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "9"
+    },
+    {
+      "questionId": "7caa46a7-f3ee-447f-a42a-93f71f447ac8",
+      "order": 12,
+      "questionText": "Over the past month, have you had a physical response when reminded of that traumatic event ?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "d09f2568-cea7-4d16-90be-1573d9b49ffc",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "50305234-1a3c-4b4b-b659-2c5cd5038db4",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "15"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "1ab60df0-3c3f-436c-99c1-03ef2d4b9e78",
+      "order": 13,
+      "questionText": "What kinds of things remind you of the event?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "12"
+    },
+    {
+      "questionId": "5bb0a5b3-9a96-4a2b-bf50-4662718e25ae",
+      "order": 14,
+      "questionText": "How does your body respond when reminded of the event?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "12"
+    },
+    {
+      "questionId": "291926e6-b508-4c43-a81b-2d4415e7512d",
+      "order": 15,
+      "questionText": "Over the past month, have you avoided or made attempts to avoid upsetting memories, thoughts, or feelings related to that traumatic event",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "35eaaa50-cd59-45f8-bd99-cffab266e4be",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "d756dd56-b02c-45cb-91e3-161e30f8e992",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "17"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "c3c9d709-f353-48d4-bce3-b6e36ed7766a",
+      "order": 16,
+      "questionText": "What have you tried to avoid? How have you tried to avoid those things?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "15"
+    },
+    {
+      "questionId": "62d11b67-1055-4c86-953d-cf85cde58434",
+      "order": 17,
+      "questionText": "Over the past month, have you avoided or tried to avoid people, objects, or situations that reminded you of that traumatic event",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "36efe619-8b27-4a21-b6ba-1f75c911810b",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "bcf017a1-64e7-4076-9a0d-a06efe349f0c",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "19"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "d46b7fde-3129-4108-b306-9744429133a3",
+      "order": 18,
+      "questionText": "What have you tried to avoid? How have you tried to avoid those things?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "17"
+    },
+    {
+      "questionId": "26901343-81b6-48f1-8f03-3a50283cf078",
+      "order": 19,
+      "questionText": "Over the past month, have you been less interested or engaged in a number of activities you used to enjoy?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "8f819efe-9611-4ea6-b294-0f9008ee639a",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "358ec886-b2ca-4228-934b-5960e1d6d6f5",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "21"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "94b928f9-d806-4c01-84ac-c4c0e49fcbe0",
+      "order": 20,
+      "questionText": "What kinds of things have you lost interest in or been less engaged in?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "8f819efe-9611-4ea6-b294-0f9008ee639a",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "358ec886-b2ca-4228-934b-5960e1d6d6f5",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "21"
+        }
+      ],
+      "parentId": "19"
+    },
+    {
+      "questionId": "db30160f-f51e-4291-91a8-9b42e440e96c",
+      "order": 21,
+      "questionText": "Over the past month, have you felt disconnected from others?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "8f819efe-9611-4ea6-b294-0f9008ee639a",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "358ec886-b2ca-4228-934b-5960e1d6d6f5",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "1d873c4e-dffa-4b20-98ed-87e84bcb50fd",
+      "order": 22,
+      "questionText": "Over the past month, have you been unable to experience positive emotions?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "8f819efe-9611-4ea6-b294-0f9008ee639a",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "358ec886-b2ca-4228-934b-5960e1d6d6f5",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "24"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "82cd49a3-c641-4353-9577-41813b92daad",
+      "order": 23,
+      "questionText": "Which emotions are hard to feel?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "8f819efe-9611-4ea6-b294-0f9008ee639a",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "358ec886-b2ca-4228-934b-5960e1d6d6f5",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": "22"
+    },
+    {
+      "questionId": "702ae941-f542-49c0-a07b-a3d189c182b9",
+      "order": 24,
+      "questionText": "Over the past month, have you had difficulty recalling important parts of that traumatic event?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "8f819efe-9611-4ea6-b294-0f9008ee639a",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "358ec886-b2ca-4228-934b-5960e1d6d6f5",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "26"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "8487219d-a0db-4421-97b1-44664714965b",
+      "order": 25,
+      "questionText": "Why do you think that you should be able to remember these parts?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "8f819efe-9611-4ea6-b294-0f9008ee639a",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "358ec886-b2ca-4228-934b-5960e1d6d6f5",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "26"
+        }
+      ],
+      "parentId": "24"
+    },
+    {
+      "questionId": "dfbb6ff1-45cc-42cd-85b4-56ef0ea685e6",
+      "order": 26,
+      "questionText": "Over the past month, have you had persistent strong negative beliefs about yourself, others, or the world?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "8f819efe-9611-4ea6-b294-0f9008ee639a",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "358ec886-b2ca-4228-934b-5960e1d6d6f5",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "28"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "766e2495-bc0a-4e70-959f-b078d1d20391",
+      "order": 27,
+      "questionText": "What kind of beliefs do you have?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "8f819efe-9611-4ea6-b294-0f9008ee639a",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "358ec886-b2ca-4228-934b-5960e1d6d6f5",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "28"
+        }
+      ],
+      "parentId": "26"
+    },
+    {
+      "questionId": "696d6d65-4fbe-4c72-ae18-88b03aa33795",
+      "order": 28,
+      "questionText": "Over the past month, have you blamed yourself or others for that traumatic event or its consequences?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "8f819efe-9611-4ea6-b294-0f9008ee639a",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "358ec886-b2ca-4228-934b-5960e1d6d6f5",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "30"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "fe44faa3-3628-4611-86cd-5dc8393be793",
+      "order": 29,
+      "questionText": "Do other people agree with who you are blaming for the event?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "8f819efe-9611-4ea6-b294-0f9008ee639a",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "358ec886-b2ca-4228-934b-5960e1d6d6f5",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "30"
+        }
+      ],
+      "parentId": "28"
+    },
+    {
+      "questionId": "d367ef1c-aa9d-40d8-b3ab-e9e570619871",
+      "order": 30,
+      "questionText": "Over the past month, have you persistently experienced negative emotions such as fear, anger, horror, guilt or shame?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "8f819efe-9611-4ea6-b294-0f9008ee639a",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "358ec886-b2ca-4228-934b-5960e1d6d6f5",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "32"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "e55b1eec-a109-490d-9439-85624a0edfdb",
+      "order": 31,
+      "questionText": "Which emotions do you experience?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "30"
+    },
+    {
+      "questionId": "8601d929-ffc2-433b-9885-39070a674c3b",
+      "order": 32,
+      "questionText": "Over the past month, have you felt irritable or had angry outbursts even when there wasn’t much to provoke you?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "1996dc3f-4920-476c-894c-a2aa67c45715",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "092e390c-44d4-461f-915c-c0be2e773785",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "34"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "8cce487a-d645-4006-9548-a6447a56c7ab",
+      "order": 33,
+      "questionText": "How do you show your irritability and anger?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "1996dc3f-4920-476c-894c-a2aa67c45715",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "092e390c-44d4-461f-915c-c0be2e773785",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "34"
+        }
+      ],
+      "parentId": "32"
+    },
+    {
+      "questionId": "2b604210-338a-4c65-8bef-b1f525f42889",
+      "order": 34,
+      "questionText": "Over the past month, have you done things that were reckless, potentially dangerous, or harmful to you?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "1996dc3f-4920-476c-894c-a2aa67c45715",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "092e390c-44d4-461f-915c-c0be2e773785",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "36"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "64286d71-86a2-4e65-8b0e-45dc8f9c0d6a",
+      "order": 35,
+      "questionText": "What kind of things have you done?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "1996dc3f-4920-476c-894c-a2aa67c45715",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "092e390c-44d4-461f-915c-c0be2e773785",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "36"
+        }
+      ],
+      "parentId": "34"
+    },
+    {
+      "questionId": "a42b7491-13ff-4ffc-b37f-46b3c93c2e3e",
+      "order": 36,
+      "questionText": "Over the past month, have you been highly attentive or on guard even when there was no reason to be?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "1996dc3f-4920-476c-894c-a2aa67c45715",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "092e390c-44d4-461f-915c-c0be2e773785",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "69879528-5cbb-495a-aa46-ddc152ad0a35",
+      "order": 37,
+      "questionText": "Over the past month, have you been particularly jumpy or easily startled?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "1996dc3f-4920-476c-894c-a2aa67c45715",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "092e390c-44d4-461f-915c-c0be2e773785",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "0782d91c-dc8b-4b4a-9221-3b05fc0ed423",
+      "order": 38,
+      "questionText": "Over the past month, have you had difficulty concentrating?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "1996dc3f-4920-476c-894c-a2aa67c45715",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "092e390c-44d4-461f-915c-c0be2e773785",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "1f5fac42-86a1-44ac-aed7-40d905e65333",
+      "order": 39,
+      "questionText": "Over the past month, have you had difficulty with sleep, such as falling asleep, staying asleep, waking up early, or getting restful sleep?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "1996dc3f-4920-476c-894c-a2aa67c45715",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "092e390c-44d4-461f-915c-c0be2e773785",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "8a3cee2e-9356-4b81-86ed-36196ff34c1a",
+      "order": 40,
+      "questionText": "Did these symptoms that you just told me about begin within 6 months of that traumatic event? ",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "1996dc3f-4920-476c-894c-a2aa67c45715",
+          "value": "1",
+          "text": "Yes",
+          "jump": "true",
+          "jumpTo": "42"
+        },
+        {
+          "optionId": "092e390c-44d4-461f-915c-c0be2e773785",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "0b5387e4-1e86-46c1-a9ed-9aae4d979c79",
+      "order": 41,
+      "questionText": "When did these symptoms begin?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "40"
+    },
+    {
+      "questionId": "75ff4a7e-ba2d-4023-af22-2b7391beaec7",
+      "order": 42,
+      "questionText": "Have you been experiencing these symptoms consistently for at least the past month?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "84b2545d-74e2-45bf-a4cd-37641da1d010",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "99b36603-9082-47cf-b320-63a027d045fc",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "0"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "f9291e2a-6c86-440c-ac8c-ec8a3454e3ed",
+      "order": 43,
+      "questionText": "Is it very upsetting for you that you have these symptoms?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "84b2545d-74e2-45bf-a4cd-37641da1d010",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "99b36603-9082-47cf-b320-63a027d045fc",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "0"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "24a04f55-ab9e-4e04-89ec-915499cb935a",
+      "order": 44,
+      "questionText": "Have the symptoms interfered with your ability to carry out daily activities?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "84b2545d-74e2-45bf-a4cd-37641da1d010",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "99b36603-9082-47cf-b320-63a027d045fc",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "47"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "4ec9abf2-f1c0-4d44-ac88-1715848e09af",
+      "order": 45,
+      "questionText": "In what ways have they interfered?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "44"
+    },
+    {
+      "questionId": "c2fd702b-896e-49b6-aa29-d32cb517bcbc",
+      "order": 46,
+      "questionText": "Have they made it hard for you to work, socialize, go to school, or take care of things at home?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "44"
+    },
+    {
+      "questionId": "ea658fb0-b00e-4d1c-9c55-e0fd22e48ebe",
+      "order": 47,
+      "questionText": "Were you using any substances just before these symptoms began? Do you think this may have caused your symptoms or made them worse?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "43b4bee9-e913-4293-9981-8ff40d303bd2",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "5551e79f-2780-4b5f-9efd-b800d7130250",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "49"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "6a50ae55-9903-4780-99fe-c514e0c7056b",
+      "order": 48,
+      "questionText": "Did the symptoms persist even once the substance was not in your body anymore?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "43b4bee9-e913-4293-9981-8ff40d303bd2",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "5551e79f-2780-4b5f-9efd-b800d7130250",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": "49"
+        }
+      ],
+      "parentId": "47"
+    },
+    {
+      "questionId": "94357155-5f49-42e5-aead-92f11e11ed9f",
+      "order": 49,
+      "questionText": "Did you have any medical conditions just before these symptoms began? Do you think this may have caused your symptoms or made them worse?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "43b4bee9-e913-4293-9981-8ff40d303bd2",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "5551e79f-2780-4b5f-9efd-b800d7130250",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "0"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "ae0cd32e-e7c5-49f9-93ad-c32e831eeeb6",
+      "order": 50,
+      "questionText": "In response to the trauma and continuing over the past month, have you often felt detached from or outside of your mind or body?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "43b4bee9-e913-4293-9981-8ff40d303bd2",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "5551e79f-2780-4b5f-9efd-b800d7130250",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": "0"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "34d39fad-25d8-4956-aa3b-cc74331c87fe",
+      "order": 51,
+      "questionText": "In response to the trauma and continuing over the past month, have you felt as though things around you are unreal, distant, or distorted, or as if you are in a dream?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "43b4bee9-e913-4293-9981-8ff40d303bd2",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "5551e79f-2780-4b5f-9efd-b800d7130250",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": "0"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "cc377b7a-a434-4035-80bc-f931e8c10cbc",
+      "order": 52,
+      "questionText": "How old were you when these symptoms first began? (number of years)",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": ""
+    },
+    {
+      "questionId": "b6548b99-926f-4be0-90c0-d82fad3814e8",
+      "order": 53,
+      "questionText": "How old were you when these symptoms began to be a problem for you? (number of years)",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": ""
+    },
+    {
+      "questionId": "5f5e0b2f-9fc9-43bc-b78d-9d1b6753e5ff",
+      "order": 54,
+      "questionText": "On a scale from 0 to 10, 0 meaning not at all and 10 meaning extremely, how much are you bothered by your symptoms?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": ""
+    },
+    {
+      "questionId": "a5488769-3e3f-4571-9d2f-32383b9f4e4b",
+      "order": 55,
+      "questionText": "Since the event occurred, have you had upsetting memories of that traumatic when you didn’t want to ?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "eb16c257-33d0-4c2f-b84f-bf8bcfc82cc9",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "a82537eb-47a5-4140-9b4a-fdc720c8985c",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "4b3f15ff-2c96-442a-b40a-3364b22c7aa1",
+      "order": 56,
+      "questionText": "Since the event occurred, have you had upsetting dreams related to that traumatic event?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "eb16c257-33d0-4c2f-b84f-bf8bcfc82cc9",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "a82537eb-47a5-4140-9b4a-fdc720c8985c",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "ec8de57f-dc7e-4405-b272-06b814ace006",
+      "order": 57,
+      "questionText": "Since the event occurred, have you felt or acted as though that traumatic event was happening again?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "eb16c257-33d0-4c2f-b84f-bf8bcfc82cc9",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "a82537eb-47a5-4140-9b4a-fdc720c8985c",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "4142ee7f-0d80-4692-97ab-ac3e2380e0db",
+      "order": 58,
+      "questionText": "Since the event occurred, have you had a physical response when reminded of that traumatic event?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "eb16c257-33d0-4c2f-b84f-bf8bcfc82cc9",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "a82537eb-47a5-4140-9b4a-fdc720c8985c",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "60"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "0d317cfc-802d-435d-aae8-455bb8a87bea",
+      "order": 59,
+      "questionText": "What kinds of things remind you of the event? How does your body respond when reminded of the event?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "eb16c257-33d0-4c2f-b84f-bf8bcfc82cc9",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "a82537eb-47a5-4140-9b4a-fdc720c8985c",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": "58"
+    },
+    {
+      "questionId": "24b38da2-b3a6-423a-ac95-de5457a6dd07",
+      "order": 60,
+      "questionText": "Since the event occurred, have you avoided or made attempts to avoid upsetting memories, thoughts, or feelings related to that traumatic event?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "eb16c257-33d0-4c2f-b84f-bf8bcfc82cc9",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "a82537eb-47a5-4140-9b4a-fdc720c8985c",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "62"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "2071c1f2-364a-4b64-98e9-04bcebb6d4d8",
+      "order": 61,
+      "questionText": "What have you tried to avoid? How have you tried to avoid those things?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "eb16c257-33d0-4c2f-b84f-bf8bcfc82cc9",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "a82537eb-47a5-4140-9b4a-fdc720c8985c",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": "60"
+    },
+    {
+      "questionId": "9e6ff642-4f14-47c0-a060-4b1c4eaeedb6",
+      "order": 62,
+      "questionText": "Since the event occurred, have you avoided or tried to avoid people, objects, or situations that reminded you of that traumatic event?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "eb16c257-33d0-4c2f-b84f-bf8bcfc82cc9",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "a82537eb-47a5-4140-9b4a-fdc720c8985c",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "64"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "0679e35a-c8ec-47d5-8bd4-c9da17176015",
+      "order": 63,
+      "questionText": "What have you tried to avoid? How have you tried to avoid those things?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "eb16c257-33d0-4c2f-b84f-bf8bcfc82cc9",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "a82537eb-47a5-4140-9b4a-fdc720c8985c",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": "62"
+    },
+    {
+      "questionId": "d39c1c75-1777-4f28-97f7-989b115abd05",
+      "order": 64,
+      "questionText": "Since the event occurred, have you feel like you can’t have any good feelings like happiness or love?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "eb16c257-33d0-4c2f-b84f-bf8bcfc82cc9",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "a82537eb-47a5-4140-9b4a-fdc720c8985c",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "66"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "85ab9d0c-e2b7-449e-aa10-4b049a4b3f5d",
+      "order": 65,
+      "questionText": "Which emotions are hard to feel?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "eb16c257-33d0-4c2f-b84f-bf8bcfc82cc9",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "a82537eb-47a5-4140-9b4a-fdc720c8985c",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "66"
+        }
+      ],
+      "parentId": "64"
+    },
+    {
+      "questionId": "df3de3d5-2c43-4551-894a-f018dfa38677",
+      "order": 66,
+      "questionText": "Since the event occurred, have you feel like you are having an out of body experience, or that you’re in a daze, or that time slows down?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "eb16c257-33d0-4c2f-b84f-bf8bcfc82cc9",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "a82537eb-47a5-4140-9b4a-fdc720c8985c",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "d23c7121-5ea6-4d9a-98e7-d840339e0fb5",
+      "order": 67,
+      "questionText": "Since the event occurred, have you had difficulty recalling important parts of that traumatic events? ",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "eb16c257-33d0-4c2f-b84f-bf8bcfc82cc9",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "a82537eb-47a5-4140-9b4a-fdc720c8985c",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "69"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "9ce2799b-dbd7-49be-ab05-6c46fef4ee58",
+      "order": 68,
+      "questionText": "Why do you think that you should be able to remember these parts?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "eb16c257-33d0-4c2f-b84f-bf8bcfc82cc9",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "a82537eb-47a5-4140-9b4a-fdc720c8985c",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "69"
+        }
+      ],
+      "parentId": "67"
+    },
+    {
+      "questionId": "b474f846-e0a4-4851-844b-dedbc7574a0a",
+      "order": 69,
+      "questionText": "Since the event occurred, have you felt irritable or had angry outbursts even when there wasn’t much to provoke you?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "eb16c257-33d0-4c2f-b84f-bf8bcfc82cc9",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "a82537eb-47a5-4140-9b4a-fdc720c8985c",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "71"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "4da14d79-8d8c-4b04-8a22-567249a2672b",
+      "order": 70,
+      "questionText": "How do you show your irritability and anger?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "eb16c257-33d0-4c2f-b84f-bf8bcfc82cc9",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "a82537eb-47a5-4140-9b4a-fdc720c8985c",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "71"
+        }
+      ],
+      "parentId": "69"
+    },
+    {
+      "questionId": "c41aa2e5-ecbe-4ac0-9b6a-f6c618a69fc5",
+      "order": 71,
+      "questionText": "Since the event occurred, have you been highly attentive or on guard even when there was no reason to be?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "eb16c257-33d0-4c2f-b84f-bf8bcfc82cc9",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "a82537eb-47a5-4140-9b4a-fdc720c8985c",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "bf1b2743-88f4-4eae-be13-5bc7d2640ce6",
+      "order": 72,
+      "questionText": "Since the event occurred, have you been particularly jumpy or easily startled?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "eb16c257-33d0-4c2f-b84f-bf8bcfc82cc9",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "a82537eb-47a5-4140-9b4a-fdc720c8985c",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "c0614bd5-6664-4cb2-870b-6e2b11552ced",
+      "order": 73,
+      "questionText": "Since the event occurred, have you had difficulty concentrating?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "eb16c257-33d0-4c2f-b84f-bf8bcfc82cc9",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "a82537eb-47a5-4140-9b4a-fdc720c8985c",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "45d84335-3420-4f83-a872-643cae9537d6",
+      "order": 74,
+      "questionText": "Since the event occurred, have you had difficulty with sleep, such as falling asleep, staying asleep, waking up early, or getting restful sleep?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "eb16c257-33d0-4c2f-b84f-bf8bcfc82cc9",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "a82537eb-47a5-4140-9b4a-fdc720c8985c",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "430c5ad3-13a8-47de-ae5a-9b229649113c",
+      "order": 75,
+      "questionText": "Did these symptoms that you just told me about begin following that traumatic event?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "eb16c257-33d0-4c2f-b84f-bf8bcfc82cc9",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "a82537eb-47a5-4140-9b4a-fdc720c8985c",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "0"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "f2759a9a-1e3a-407d-a1dd-bf5d18cc1be5",
+      "order": 76,
+      "questionText": "Have you been experiencing these symptoms consistently for at least 3 days?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "eb16c257-33d0-4c2f-b84f-bf8bcfc82cc9",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "a82537eb-47a5-4140-9b4a-fdc720c8985c",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "0"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "4b23883b-8c2b-4733-b7e1-e9686cb4bd8e",
+      "order": 77,
+      "questionText": "Is it very upsetting for you that you have these symptoms?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "eb16c257-33d0-4c2f-b84f-bf8bcfc82cc9",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "a82537eb-47a5-4140-9b4a-fdc720c8985c",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "0"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "5fe49677-03f0-4022-a536-bb90f695304a",
+      "order": 78,
+      "questionText": "Have the symptoms interfered with your ability to carry out daily activities?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "eb16c257-33d0-4c2f-b84f-bf8bcfc82cc9",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "a82537eb-47a5-4140-9b4a-fdc720c8985c",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "81"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "efa1ed13-17a4-4cad-8952-c58182df2847",
+      "order": 79,
+      "questionText": "In what ways have they interfered?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "78"
+    },
+    {
+      "questionId": "b6e0dcb8-6e26-4c0a-bb0e-b583f646031b",
+      "order": 80,
+      "questionText": "Have they made it hard for you to work, socialize, go to school, or take care of things at home?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "78"
+    },
+    {
+      "questionId": "41ed7f63-4a6b-4101-ae87-1ef70d1a3e9f",
+      "order": 81,
+      "questionText": "Were you using any substances just before these symptoms began? Do you think this may have caused your symptoms or made them worse?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "31214515-f4ff-4741-af5b-c53e5238ca21",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "c6f9e572-5a4c-45aa-b893-fdd8746801e2",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "83"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "f410f93d-9b90-4ea3-910a-d34d9ab50f21",
+      "order": 82,
+      "questionText": "Did the symptoms persist even once the substance was not in your body anymore?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "31214515-f4ff-4741-af5b-c53e5238ca21",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "c6f9e572-5a4c-45aa-b893-fdd8746801e2",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": "83"
+        }
+      ],
+      "parentId": "81"
+    },
+    {
+      "questionId": "2a1b669b-8406-4c1e-9a6a-f4268cbb97c2",
+      "order": 83,
+      "questionText": "Did you have any medical conditions just before these symptoms began? Do you think this may have caused your symptoms or made them worse?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "31214515-f4ff-4741-af5b-c53e5238ca21",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "c6f9e572-5a4c-45aa-b893-fdd8746801e2",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "0"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "7eafdeba-a55c-4f63-b8e5-d52312f62810",
+      "order": 84,
+      "questionText": "On a scale from 0 to 10, 0 meaning not at all and 10 meaning extremely, how much are you bothered by your symptoms?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": ""
+    }
+  ]
+}

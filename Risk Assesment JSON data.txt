@@ -1,0 +1,1120 @@
+{
+  "formName": "Risk Assessment",
+  "formOrder": "3",
+  "title": "Risk Assessment",
+  "description": "Please carefully read and answer all questions presented in this form. It is essential to consider each question thoroughly to ensure accurate and reflective responses. ",
+  "tier": "tier-1",
+  "mandatory": "no",
+  "questions": [
+    {
+      "questionId": "de01675a-c55e-458f-8abf-3db11f0643dc",
+      "order": 1,
+      "questionText": "Do you currently have thoughts of your own death or of killing yourself?",
+      "type": "single-choice",
+      "isOptional": false,
+      "options": [
+        {
+          "optionId": "bc0a6e16-5e48-4d94-9fc5-cfe5231216a8",
+          "value": "1",
+          "text": "Yes",
+          "jump": "true",
+          "jumpTo": "2"
+        },
+        {
+          "optionId": "86f207e3-56a4-45df-9ce5-d9d96400d5b0",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "18"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "98834ccc-5260-43db-9615-03685ac361ac",
+      "order": 2,
+      "questionText": "What thoughts do you have? ",
+      "type": "multiple-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "40c3f4e8-a122-434c-ad1f-f2174eea8860",
+          "value": "1",
+          "text": "Thinking things would be easier if you were no longer alive",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "17595f9e-1711-46ea-9ad1-a8e4a817e26f",
+          "value": "1",
+          "text": "Wishing you would not wake up in the morning",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "8013656a-339a-48e9-bf50-7e427a71233c",
+          "value": "1",
+          "text": "Thinking specifically about killing yourself ",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": "1"
+    },
+    {
+      "questionId": "8834e1fc-9ab2-46a2-8495-0770d274a89e",
+      "order": 3,
+      "questionText": "When did these thoughts first start?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "1"
+    },
+    {
+      "questionId": "9e0f960b-5e65-4125-a1f9-59c52df12e23",
+      "order": 4,
+      "questionText": "How often do you have them?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "1"
+    },
+    {
+      "questionId": "c39e8d6b-a3e4-4de6-8cff-9b88a56aeabd",
+      "order": 5,
+      "questionText": "How long do they last (i.e., constant or fleeting)?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "1"
+    },
+    {
+      "questionId": "68ecb408-1be5-4f99-8f3c-825000333ad4",
+      "order": 6,
+      "questionText": "When you have these thoughts, what do you do?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "1"
+    },
+    {
+      "questionId": "8d4e9538-a286-41df-a81b-0402bbcb0a8a",
+      "order": 7,
+      "questionText": "Have there been other times in your life when you’ve had these thoughts?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "1"
+    },
+    {
+      "questionId": "1bdf4c68-6adf-4579-b1fa-cf6f40d74324",
+      "order": 8,
+      "questionText": "Do you have a plan of how you would kill yourself?",
+      "type": "single-choice",
+      "isOptional": false,
+      "options": [
+        {
+          "optionId": "eb5ea790-7c3e-44de-8bcc-b6c1757ddafe",
+          "value": "1",
+          "text": "Yes",
+          "jump": "true",
+          "jumpTo": "9"
+        },
+        {
+          "optionId": "8a0dff10-1b7f-45cd-99f2-2198830a249e",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "12"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "4c06a65e-d583-4642-a5f6-3075c3c6f189",
+      "order": 9,
+      "questionText": "What is your plan?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "8"
+    },
+    {
+      "questionId": "060578bb-4c91-4c0b-9f3c-55467e1d8feb",
+      "order": 10,
+      "questionText": " Do you have access to what you would need to carry out this plan?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "8"
+    },
+    {
+      "questionId": "312285b8-96d0-43db-87c9-128845e69c88",
+      "order": 11,
+      "questionText": "Have you made any preparations toward acting on it (e.g., researching ways to kill yourself; collecting pills if the plan is to overdose)? ",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "8"
+    },
+    {
+      "questionId": "969ca295-3a4a-46bf-ace4-743d832f5458",
+      "order": 12,
+      "questionText": "Do you intend to kill yourself?",
+      "type": "single-choice",
+      "isOptional": "false",
+      "options": [
+        {
+          "optionId": "b1e3fefb-30e0-434b-86fd-9b9eb7697d08",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": "1"
+        },
+        {
+          "optionId": "64a44abb-4c57-485d-817f-abad5e60eddd",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "16"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "ab0b49c9-3d8a-4958-b95f-b481d6e5cada",
+      "order": 13,
+      "questionText": "On a scale from 0 to 10, where 0 is “I would never act” and 10 is “I am definitely going to act”, how likely is it that you are going to kill yourself today? ",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "12"
+    },
+    {
+      "questionId": "dcdb91f7-1177-47d3-a332-39d498ada6a9",
+      "order": 14,
+      "questionText": "On a scale from 0 to 10, where 0 is “I would never act” and 10 is “I am definitely going to act”, how likely is it that you are going to kill yourself next week? ",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "12"
+    },
+    {
+      "questionId": "30b5d62e-1b36-4c49-91da-5682616b9416",
+      "order": 15,
+      "questionText": "On a scale from 0 to 10, where 0 is “I would never act” and 10 is “I am definitely going to act”, how likely is it that you are going to kill yourself next month? ",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "12"
+    },
+    {
+      "questionId": "642214fe-f799-4dd7-93b0-122ca06ef024",
+      "order": 16,
+      "questionText": "What are some important reasons to stay alive?",
+      "type": "multiple-choice",
+      "isOptional": "false",
+      "options": [
+        {
+          "optionId": "5b3ab95d-b17d-4f7b-8aa3-1b70cee5f74a",
+          "value": "1",
+          "text": "Family",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "7be7dd51-6e50-4ec4-9be6-43f06ebb12d6",
+          "value": "1",
+          "text": "Friends",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "5012dc1a-a522-4f94-91c4-1455f3cfcf13",
+          "value": "1",
+          "text": "Pets",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "00d0e2dc-a406-4bc2-997e-53bd6694ff29",
+          "value": "1",
+          "text": "Healthcare Providers",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "d66cb25b-c0bd-4b31-b208-0478071635ba",
+          "value": "1",
+          "text": "Religion",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "bf17af29-d214-4c52-805d-b07e1c21c234",
+          "value": "1",
+          "text": "Job",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "f282ebc0-0ef3-4cda-a556-a3e7854482b7",
+          "value": "1",
+          "text": "Future Focus/Plans",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "8e2f6ab6-8670-4fa9-b20c-d68f123e263d",
+          "value": "1",
+          "text": "Fear of failed attempt",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "d1915a5c-4592-481a-934e-b1662a4783c7",
+          "value": "1",
+          "text": "Other",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "65a552de-089d-4da1-bceb-35c026f54548",
+      "order": 17,
+      "questionText": "On a scale from 0 to 10, where 0 is “not at all confident” and 10 is “completely confident”, how confident are you that you can keep yourself safe? ",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "16"
+    },
+    {
+      "questionId": "a32a9b95-5347-45b9-b60d-459bb59abbcc",
+      "order": 18,
+      "questionText": "Have you had thoughts of your own death or of killing yourself in the past?",
+      "type": "single-choice",
+      "isOptional": false,
+      "options": [
+        {
+          "optionId": "17f8f20c-cb66-41ea-9154-8e2f6e4005f4",
+          "value": "1",
+          "text": "Yes",
+          "jump": "true",
+          "jumpTo": "19"
+        },
+        {
+          "optionId": "564df6d9-6a7f-4992-aaf5-3e8ef1cdaca3",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "34"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "75fc3bda-c35e-4456-a999-648b23c015a7",
+      "order": 19,
+      "questionText": "What thoughts do you have? ",
+      "type": "multiple-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "6e964bbb-a7b6-4968-88e8-4553f8893b6c",
+          "value": "1",
+          "text": "Thinking things would be easier if you were no longer alive",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "a2136461-68a7-4766-878a-109fce4e4bbf",
+          "value": "1",
+          "text": "Wishing you would not wake up in the morning",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "84e1e53f-6f22-4f2e-9b16-f50b377d68e8",
+          "value": "1",
+          "text": "Thinking specifically about killing yourself",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": "18"
+    },
+    {
+      "questionId": "e2cfe96f-c1aa-4603-8f96-e97dc571ce01",
+      "order": 20,
+      "questionText": "When was the last time you had these thoughts?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "18"
+    },
+    {
+      "questionId": "7faad28e-52f2-4305-8371-7f54e896a625",
+      "order": 21,
+      "questionText": "How often did you have them?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "18"
+    },
+    {
+      "questionId": "96cbc16d-a584-48b1-9a80-6dacb4b86a90",
+      "order": 22,
+      "questionText": "How long did they last?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "18"
+    },
+    {
+      "questionId": "28d304c3-975a-47f5-ac56-460391f3ddb6",
+      "order": 23,
+      "questionText": "What did you do to manage them?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "18"
+    },
+    {
+      "questionId": "58aaa464-a6e1-427e-86b1-83b2d3f6db50",
+      "order": 24,
+      "questionText": "Did you have a plan to kill or harm yourself?",
+      "type": "single-choice",
+      "isOptional": "false",
+      "options": [
+        {
+          "optionId": "016b3dc8-3aa6-4a73-8a7e-2b1214e09793",
+          "value": "1",
+          "text": "Yes",
+          "jump": "true",
+          "jumpTo": "25"
+        },
+        {
+          "optionId": "82b82ff2-8789-45e7-b94c-386a7111e12f",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "28"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "17b4ec09-b349-4a00-8257-40d8f82c9032",
+      "order": 25,
+      "questionText": "What was your plan?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "24"
+    },
+    {
+      "questionId": "86017c74-b9c0-45cc-a0c0-aba17b12b453",
+      "order": 26,
+      "questionText": "When did you have this plan?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "24"
+    },
+    {
+      "questionId": "72c94e9b-1324-49dd-9a24-d5b6e8ca3e07",
+      "order": 27,
+      "questionText": "Did you make any preparations toward acting on it?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "24"
+    },
+    {
+      "questionId": "69aa5da9-6d6c-471f-b32a-49c6cbf077b6",
+      "order": 28,
+      "questionText": "Did you intend to kill or harm yourself?",
+      "type": "single-choice",
+      "isOptional": "false",
+      "options": [
+        {
+          "optionId": "c6fdffe2-6da1-4e53-a8a1-d259441c09ff",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "33a8c8f5-ca4c-4e49-9b56-ad6d94041094",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "7c0e1638-fdb5-465d-878f-81700861dad5",
+      "order": 29,
+      "questionText": "Have you ever attempted to kill yourself?",
+      "type": "single-choice",
+      "isOptional": "false",
+      "options": [
+        {
+          "optionId": "c6fdffe2-6da1-4e53-a8a1-d259441c09ff",
+          "value": "1",
+          "text": "Yes",
+          "jump": "true",
+          "jumpTo": "30"
+        },
+        {
+          "optionId": "33a8c8f5-ca4c-4e49-9b56-ad6d94041094",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "34"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "44a421ec-cde4-426e-8bac-812b9faed38f",
+      "order": 30,
+      "questionText": "Can you tell me what happened?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "29"
+    },
+    {
+      "questionId": "452a03ff-06fb-42b0-b125-fc1c488e9f6b",
+      "order": 31,
+      "questionText": "Did you require any medical attention?",
+      "type": "text",
+      "isOptional": false,
+      "options": [],
+      "parentId": "29"
+    },
+    {
+      "questionId": "d0fbf195-5a4c-4ab8-967a-9c45a4cc74d8",
+      "order": 32,
+      "questionText": "When did this happen? ",
+      "type": "text",
+      "isOptional": false,
+      "options": [],
+      "parentId": "29"
+    },
+    {
+      "questionId": "c6f4f6b9-5dd1-4624-b956-3981daa0188e",
+      "order": 33,
+      "questionText": "Has this happened more than once?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "29"
+    },
+    {
+      "questionId": "d286bd92-f426-4836-9647-64e740558e2c",
+      "order": 34,
+      "questionText": "Do you currently engage in any self-harm behaviours, such as cutting, scratching, burning, or hitting yourself?",
+      "type": "single-choice",
+      "isOptional": false,
+      "options": [
+        {
+          "optionId": "7eac906d-43b1-4692-b80b-b9baf1bda5a4",
+          "value": "1",
+          "text": "Yes",
+          "jump": "true",
+          "jumpTo": "35"
+        },
+        {
+          "optionId": "17d94242-bfd1-4ac0-bf09-4ae002d1ff88",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "43"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "ecabd255-4579-4a56-a80e-ec608a9ec484",
+      "order": 35,
+      "questionText": "What behaviours do you do?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "34"
+    },
+    {
+      "questionId": "14fdaa02-3146-47c2-8e3b-f2bfbf99e15d",
+      "order": 36,
+      "questionText": "When was the last time that you hurt yourself?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "34"
+    },
+    {
+      "questionId": "13569d37-550d-4685-a922-d3b6c4a94a7e",
+      "order": 37,
+      "questionText": "How often do you hurt yourself?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "34"
+    },
+    {
+      "questionId": "f8415ebd-a509-4bd9-b737-0839f85aeca1",
+      "order": 38,
+      "questionText": "What leads you to hurting yourself?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "34"
+    },
+    {
+      "questionId": "35da5a99-df35-4799-9bec-974316a5e557",
+      "order": 39,
+      "questionText": "Did any of your self-harm behaviours lead to injuries that needed medical attention?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "34"
+    },
+    {
+      "questionId": "0a5aee1b-760e-46a6-a4d1-4978c2924670",
+      "order": 40,
+      "questionText": "Are there any things that keep you from acting on your urges to self-harm (e.g., calling a friend, leaving the situation/environment)?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "34"
+    },
+    {
+      "questionId": "c1c7fca2-2b14-4649-8c7b-9e829e0f99b9",
+      "order": 41,
+      "questionText": "When did this start?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "34"
+    },
+    {
+      "questionId": "bf266d77-bc9c-4a68-b79c-90f5321ed856",
+      "order": 42,
+      "questionText": "Have there been other times in your life when you’ve engaged in self-harm behaviours?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "34"
+    },
+    {
+      "questionId": "13479a10-1fa2-4f84-875f-081d9fd3a6f7",
+      "order": 43,
+      "questionText": "Have you ever done anything to hurt yourself on purpose?",
+      "type": "single-choice",
+      "isOptional": "false",
+      "options": [
+        {
+          "optionId": "b2c5f0b0-2954-4ab3-9d63-85cabfe04bd7",
+          "value": "1",
+          "text": "Yes",
+          "jump": "true",
+          "jumpTo": "44"
+        },
+        {
+          "optionId": "00ea01bc-caa2-4c61-aa6e-7f0d9cb595f4",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "49"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "b15d7e85-2c48-4441-adce-ca11d1c67906",
+      "order": 44,
+      "questionText": "Have you engaged in self-harming behaviors such as cutting, scratching, burning, or hitting yourself? Can you tell me more about this?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "f4e6fce9-bdf8-4c91-9d77-3aafdc926a4b",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "a70a5f09-f9e0-4d73-998b-0d9c0f073855",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": "43"
+    },
+    {
+      "questionId": "f50bf4aa-211b-40ad-a1b2-6f43a720ac5f",
+      "order": 45,
+      "questionText": "When did this happen?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "43"
+    },
+    {
+      "questionId": "47437e24-ce82-4af1-8275-8aae253ee30b",
+      "order": 46,
+      "questionText": "How often did this happen?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "43"
+    },
+    {
+      "questionId": "1a16d614-79dc-48b1-9b3b-3deeeb40e7aa",
+      "order": 47,
+      "questionText": "Why did you hurt yourself?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "43"
+    },
+    {
+      "questionId": "5195f7ac-98b8-42d4-b380-bd42641a3845",
+      "order": 48,
+      "questionText": "Did you ever need medical intervention as a result of this?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "43"
+    },
+    {
+      "questionId": "dc7b3eb5-ad53-4b0d-b1cb-4b384a3fce8e",
+      "order": 49,
+      "questionText": "Do you currently have thoughts of hurting or killing someone else?",
+      "type": "single-choice",
+      "isOptional": false,
+      "options": [
+        {
+          "optionId": "10fcf9ed-bc10-44fa-8239-44ec9b1d8aed",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "12c308d4-ebcb-45e8-b895-5d3015df3e60",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "68"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "e1b67fde-dd56-4fb1-8061-dbb4d5e24d24",
+      "order": 50,
+      "questionText": "What thoughts do you have? ",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "49"
+    },
+    {
+      "questionId": "8cdde9ad-a937-44e8-b73a-0c0004ed274c",
+      "order": 51,
+      "questionText": "Do you have a specific person who you plan to harm?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "49"
+    },
+    {
+      "questionId": "45e1ec31-e7e4-42ff-8ca6-5a20396c7fc1",
+      "order": 52,
+      "questionText": "Why do you want to harm them?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "49"
+    },
+    {
+      "questionId": "403ecbdd-ae95-496c-8577-24b1e7d95bc3",
+      "order": 53,
+      "questionText": "When was the last time you had these thoughts? ",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "49"
+    },
+    {
+      "questionId": "3b49c90d-a4ba-47ae-8e5b-d211af582b8b",
+      "order": 54,
+      "questionText": "How often do you have them?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "49"
+    },
+    {
+      "questionId": "d668e113-fca1-40e1-913d-b375408071e1",
+      "order": 55,
+      "questionText": "How long do they last?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "49"
+    },
+    {
+      "questionId": "ee2c15a7-3c1b-4060-aded-bdf8d4262e8a",
+      "order": 56,
+      "questionText": "How do you manage these thoughts? ",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "49"
+    },
+    {
+      "questionId": "b24a59d9-c982-46c1-8ad3-dcf659ccc261",
+      "order": 57,
+      "questionText": "Have you developed a plan to act on these thoughts?",
+      "type": "single-choice",
+      "isOptional": false,
+      "options": [
+        {
+          "optionId": "707df8ee-b1c3-4e9d-99b7-9ff04e1d6ca9",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "764bc26e-1301-4bd1-bd3f-85cd55644258",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "62"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "4ec35290-ee63-4370-9df1-1dc9c4aa3f14",
+      "order": 58,
+      "questionText": "Can you describe this plan?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "57"
+    },
+    {
+      "questionId": "018aaf56-9134-4103-b403-602f40e9a019",
+      "order": 59,
+      "questionText": "How long have you had this plan?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "57"
+    },
+    {
+      "questionId": "a3262011-b9fe-422d-b6dc-7dcd56ecada6",
+      "order": 60,
+      "questionText": "Do you have access to what you would need to carry out this plan? ",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "57"
+    },
+    {
+      "questionId": "df67f486-77b0-48d2-afd1-11bb54b7f089",
+      "order": 61,
+      "questionText": "Have you made any preparations toward acting on it? ",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "57"
+    },
+    {
+      "questionId": "1a4b0b9c-fb7a-45c7-ba95-b339da05b9d2",
+      "order": 62,
+      "questionText": "Do you intend to act on these thoughts?",
+      "type": "single-choice",
+      "isOptional": false,
+      "options": [
+        {
+          "optionId": "318295ad-842e-4d92-a203-9f575f241df5",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "e1134f00-b972-4979-a74d-490b2524a2d9",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "66"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "b103704e-898d-48fc-9814-53aad978224f",
+      "order": 63,
+      "questionText": "On a scale from 0 to 10, where 0 is “I would never act” and 10 is “I am definitely going to act”, how likely is it that you are going to act on these thoughts today? ",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "62"
+    },
+    {
+      "questionId": "ff5bba3d-c1f1-410f-9133-c2043c9f500e",
+      "order": 64,
+      "questionText": "On a scale from 0 to 10, where 0 is “I would never act” and 10 is “I am definitely going to act”, how likely is it that you are going to act on these thoughts next week? ",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "62"
+    },
+    {
+      "questionId": "c3d60b6f-5bce-4ef7-b5af-3433a13e27ce",
+      "order": 65,
+      "questionText": "On a scale from 0 to 10, where 0 is “I would never act” and 10 is “I am definitely going to act”, how likely is it that you are going to act on these thoughts next month? ",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "62"
+    },
+    {
+      "questionId": "2528decb-ade3-4298-8e52-ea534949c27d",
+      "order": 66,
+      "questionText": "What keeps you from acting on these thoughts? ",
+      "type": "text",
+      "isOptional": false,
+      "options": [],
+      "parentId": ""
+    },
+    {
+      "questionId": "3898c8ba-bc32-46c5-a6fc-cf8b2487de16",
+      "order": 67,
+      "questionText": "On a scale from 0 to 10, where 0 is “not at all confident” and 10 is “completely confident,” how confident are you that you can keep yourself from acting on these thoughts or engaging in these behaviours? ",
+      "type": "text",
+      "isOptional": false,
+      "options": [],
+      "parentId": ""
+    },
+    {
+      "questionId": "1055c06d-8429-4697-b908-6c2f24d9ab36",
+      "order": 68,
+      "questionText": "Have you had thoughts of hurting or killing others in the past?",
+      "type": "single-choice",
+      "isOptional": false,
+      "options": [
+        {
+          "optionId": "dad1405f-ad35-4681-803b-faf00cca2fb1",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "38b78bcb-a068-4512-9d46-df3e593e5d9f",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "0"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "bfb8589f-6ad7-4c84-9589-f5907eab51cb",
+      "order": 69,
+      "questionText": "Please describe these thoughts.",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "68"
+    },
+    {
+      "questionId": "5be68665-5b05-4f93-84fe-fd47397d3bc4",
+      "order": 70,
+      "questionText": "When was the last time you had these thoughts?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "68"
+    },
+    {
+      "questionId": "11b11d83-838c-498c-9afd-8b889e14ddf6",
+      "order": 71,
+      "questionText": "How often did you have them?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "68"
+    },
+    {
+      "questionId": "300fd471-c69a-44ee-96f6-2b5ed6824041",
+      "order": 72,
+      "questionText": "How long did they last?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "68"
+    },
+    {
+      "questionId": "6356916d-5ea0-482e-b65d-45369fc0036c",
+      "order": 73,
+      "questionText": "What did you do to manage them?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "68"
+    },
+    {
+      "questionId": "86d608cf-6241-4db0-8240-180ab2bfc082",
+      "order": 74,
+      "questionText": "Have you ever had a plan to kill or harm someone else?",
+      "type": "single-choice",
+      "isOptional": false,
+      "options": [
+        {
+          "optionId": "f334318c-2748-4d72-bf38-dd468e839f3b",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "aad423a8-720b-49f6-8ef8-257be5d23e45",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "78"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "67e2bce9-f2ab-4f99-8e59-70a0fdb7c209",
+      "order": 75,
+      "questionText": "What thoughts did you have?",
+      "type": "text",
+      "isOptional": false,
+      "options": [],
+      "parentId": "74"
+    },
+    {
+      "questionId": "839e4e71-c27d-4d8a-b102-87fba6a4e25d",
+      "order": 76,
+      "questionText": "How long have you had you this plan?",
+      "type": "text",
+      "isOptional": false,
+      "options": [],
+      "parentId": "74"
+    },
+    {
+      "questionId": "82459c7c-dd8c-4967-a482-6a64ed1569eb",
+      "order": 77,
+      "questionText": "Did you make any preparations toward acting on it?",
+      "type": "text",
+      "isOptional": false,
+      "options": [],
+      "parentId": "74"
+    },
+    {
+      "questionId": "a94b772b-8314-4afd-89b1-b9646581a452",
+      "order": 78,
+      "questionText": "Have you ever intended to kill or harm someone else?",
+      "type": "single-choice",
+      "isOptional": false,
+      "options": [
+        {
+          "optionId": "dccaccc8-6f09-4ced-8d8c-653baa260bec",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "d01192d6-2319-40a9-8bc2-010fe26070c2",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "15179292-f06b-4424-979a-7390fbcd2679",
+      "order": 79,
+      "questionText": "Have you ever engaged in any behaviour to purposely hurt or kill someone else?",
+      "type": "single-choice",
+      "isOptional": false,
+      "options": [
+        {
+          "optionId": "dccaccc8-6f09-4ced-8d8c-653baa260bec",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "d01192d6-2319-40a9-8bc2-010fe26070c2",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "0"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "3317503e-672f-470d-b823-591dc3632441",
+      "order": 80,
+      "questionText": "Can you tell me what happened? ",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "79"
+    },
+    {
+      "questionId": "8ad622ba-3a52-4957-9a4e-0eec8ee32f11",
+      "order": 81,
+      "questionText": "When did this happen?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "79"
+    },
+    {
+      "questionId": "75cedf80-90c5-46f0-8884-2210e23154e1",
+      "order": 82,
+      "questionText": "Can you tell me more about this? ",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "79"
+    },
+    {
+      "questionId": "0ceb3896-a512-454a-bf89-716fac9f0017",
+      "order": 83,
+      "questionText": "Has this happened more than once?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "79"
+    }
+  ]
+}

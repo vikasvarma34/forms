@@ -1,0 +1,967 @@
+{
+  "formName": "Bipolar",
+  "formOrder": "4",
+  "title": "Bipolar",
+  "description": "Please carefully read and answer all questions presented in this form. It is essential to consider each question thoroughly to ensure accurate and reflective responses.",
+  "tier": "tier-1",
+  "mandatory": "no",
+  "questions": [
+    {
+      "questionId": "3b3ecd0c-f197-4c46-8ff1-9f2d819ac238",
+      "order": 1,
+      "questionText": "Have you ever experienced abnormal and excessively elevated mood (e.g., feeling euphoric, very hyper, excitable, or high) that lasted most of the day for several days in a row?",
+      "type": "single-choice",
+      "isOptional": false,
+      "options": [
+        {
+          "optionId": "006077d6-b304-4f18-be16-997eac21b43c",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "86b1300b-6adf-471c-863a-c68c54ca0376",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "9"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "0881eb46-b478-4d55-9f6c-a5fd89c1a3ec",
+      "order": 2,
+      "questionText": "Can you tell me more about what this was like for you?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "1"
+    },
+    {
+      "questionId": "469e8331-e326-4e49-ac97-c9661ea819ee",
+      "order": 3,
+      "questionText": "Was this more than just very happy mood, for example, feeling on top of the world or that you could do anything?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "1"
+    },
+    {
+      "questionId": "08bc1862-b920-444c-bd83-9e3866fc2563",
+      "order": 4,
+      "questionText": "Was your mood so extreme that you were acting very different than normal?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "1"
+    },
+    {
+      "questionId": "c3c35a9f-bd90-416c-a715-6f5185f220c3",
+      "order": 5,
+      "questionText": "Did other people notice or comment that you were not yourself?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "1"
+    },
+    {
+      "questionId": "0422841e-bccf-49f8-9c2a-55c2b4671401",
+      "order": 6,
+      "questionText": "When did you experience this?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "1"
+    },
+    {
+      "questionId": "769fb0d7-0507-4866-be01-72f27713c167",
+      "order": 7,
+      "questionText": "How long did this last?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "1"
+    },
+    {
+      "questionId": "6f341503-ebc0-4f30-a762-edd76d137be5",
+      "order": 8,
+      "questionText": "Has this happened more than once?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "1"
+    },
+    {
+      "questionId": "0a0e71c9-fad0-447b-aac0-c21bc322565c",
+      "order": 9,
+      "questionText": "Have you ever experienced excessively irritable mood that lasted most of the day for several days in a row?",
+      "type": "single-choice",
+      "isOptional": false,
+      "options": [
+        {
+          "optionId": "10018737-f2a0-4c13-8dcc-cc8ede9f62d8",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "9fc3c94b-2537-4f59-9d73-e1fb8d194aef",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "17"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "072462c2-09bd-46df-a51f-8bb4214c7abf",
+      "order": 10,
+      "questionText": "Can you tell me more about what this was like for you?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "9"
+    },
+    {
+      "questionId": "707fc14e-cf62-46db-a71b-c357f7fe38c9",
+      "order": 11,
+      "questionText": "Were you overly irritable or did you express frustration with people you didn’t know well?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "9"
+    },
+    {
+      "questionId": "ec92b994-981e-4d59-a46e-690ca5a164bd",
+      "order": 12,
+      "questionText": "Did you overreact to minor annoyances?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "9"
+    },
+    {
+      "questionId": "bb65871e-25d8-4ec4-9b61-3cee4b43d1ac",
+      "order": 13,
+      "questionText": "Did other people notice or comment that you were not yourself?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "9"
+    },
+    {
+      "questionId": "d26fa28b-4e95-439a-b4cc-35a4ea16fcc5",
+      "order": 14,
+      "questionText": "When did you experience this?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "9"
+    },
+    {
+      "questionId": "d6b93abf-eb0a-47c9-888b-a660bbfbf87e",
+      "order": 15,
+      "questionText": "How long did this last?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "9"
+    },
+    {
+      "questionId": "7c387afa-90d0-4c20-a764-c9bfd891aaf1",
+      "order": 16,
+      "questionText": "Has this happened more than once?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "9"
+    },
+    {
+      "questionId": "6f72bca7-7c0f-4556-9e9e-b3bf4b4595b1",
+      "order": 17,
+      "questionText": "Was this elevated or irritable mood associated with an unusual increase in your level of activity or energy that lasted most of the day for several days?",
+      "type": "single-choice",
+      "isOptional": false,
+      "options": [
+        {
+          "optionId": "4d22b453-4dd7-4f86-a70a-970781b4cb73",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "03ac423d-d080-479c-903d-9615384e33a9",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "0"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "af1dd019-b8e9-4df9-9405-b78019f50a0a",
+      "order": 18,
+      "questionText": "Can you tell me more about this?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "17"
+    },
+    {
+      "questionId": "56605571-9157-4d4a-81e5-c954c43df499",
+      "order": 19,
+      "questionText": "Did you begin many new projects including ones that you had little knowledge of how to do?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "17"
+    },
+    {
+      "questionId": "70306422-6f8b-4162-9aa7-d074061ae178",
+      "order": 20,
+      "questionText": "Did you notice that this increased activity occurred at unusual hours for you?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "17"
+    },
+    {
+      "questionId": "1cdcc31f-f0db-4efa-91a5-afb120ce41e8",
+      "order": 21,
+      "questionText": "Did this cause any problems for you?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "17"
+    },
+    {
+      "questionId": "9b137548-4071-4e05-9189-ee67a5a2c426",
+      "order": 22,
+      "questionText": "Considering all of the periods in your life when these symptoms were present, when did the most severe one occur?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": ""
+    },
+    {
+      "questionId": "1d8652f2-d290-44b6-96a7-18be764ae5f0",
+      "order": 23,
+      "questionText": "During this period of elevated or irritable mood, did you feel special or gifted?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "8e999ac9-9060-40e4-a92c-0fa969220c88",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "dc2a5625-7bc5-4ff5-8480-e00a6130337e",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "26"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "e676cc61-8aa8-4565-a94c-e8fe7354edbe",
+      "order": 24,
+      "questionText": "Did you feel you had special talents or could do things that other people couldn’t do?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "8e999ac9-9060-40e4-a92c-0fa969220c88",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "dc2a5625-7bc5-4ff5-8480-e00a6130337e",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "26"
+        }
+      ],
+      "parentId": "23"
+    },
+    {
+      "questionId": "82fdccfe-34cb-4ccc-9eba-5cf9aaa505bc",
+      "order": 25,
+      "questionText": "Did you feel really good about yourself or that you could accomplish anything?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "8e999ac9-9060-40e4-a92c-0fa969220c88",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "dc2a5625-7bc5-4ff5-8480-e00a6130337e",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "26"
+        }
+      ],
+      "parentId": "23"
+    },
+    {
+      "questionId": "84b049e7-29a9-4f53-b85c-f39b6b6a80f4",
+      "order": 26,
+      "questionText": "During this period of elevated or irritable mood, did you need less sleep and still feel rested?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "78bbc87a-853a-46a9-b6b7-5930b640d87d",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "39dce7e0-886b-4f87-afdb-ef8c21c526c9",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "29"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "8c61428f-85bf-43d1-9b1d-d810f6a7e687",
+      "order": 27,
+      "questionText": "Did you feel really good about yourself or that you could accomplish anything?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "78bbc87a-853a-46a9-b6b7-5930b640d87d",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "39dce7e0-886b-4f87-afdb-ef8c21c526c9",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "28"
+        }
+      ],
+      "parentId": "26"
+    },
+    {
+      "questionId": "cff9b7f3-dd70-4c42-a638-b8aa4937b0a0",
+      "order": 28,
+      "questionText": "What’s typical for you?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "78bbc87a-853a-46a9-b6b7-5930b640d87d",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "39dce7e0-886b-4f87-afdb-ef8c21c526c9",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "28"
+        }
+      ],
+      "parentId": "26"
+    },
+    {
+      "questionId": "bb75d6e1-dc3c-4fe3-9dc8-cd03ed70fdb1",
+      "order": 29,
+      "questionText": "During this period of elevated or irritable mood, did you talk continuously so that it was difficult for people to interrupt you or feel pressured to keep talking?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "18379e75-a2ed-4d89-b49e-031e11e788a1",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "b31a5f9f-1cb1-4796-9c77-277105f54a45",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "7bed6d07-3d52-4fd0-ac2b-10e8d4254015",
+      "order": 30,
+      "questionText": "During this period of elevated or irritable mood, did you have racing thoughts or have lots of ideas or thoughts on your mind?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "509e0f13-f292-4fe0-bd14-2857036086a7",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "062ab45c-004c-42b0-8e8a-64f3602c507d",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "34b97aee-e9b7-4c68-907a-96440caad39d",
+      "order": 31,
+      "questionText": "During this period of elevated or irritable mood, did you get easily distracted, for example, by objects in your environment?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "30bb07b3-ba3e-47e8-b53b-39cd178b76f7",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "e284663f-38c1-420c-a05d-c160d3a24640",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "35"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "1d7480d4-5b14-463b-8244-d9c15e935a69",
+      "order": 32,
+      "questionText": "Did others notice this?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "30bb07b3-ba3e-47e8-b53b-39cd178b76f7",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "e284663f-38c1-420c-a05d-c160d3a24640",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "35"
+        }
+      ],
+      "parentId": "31"
+    },
+    {
+      "questionId": "0bdb23c5-49c5-4b37-901d-3e24d76d4c9f",
+      "order": 33,
+      "questionText": "How easily were you distracted?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "30bb07b3-ba3e-47e8-b53b-39cd178b76f7",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "e284663f-38c1-420c-a05d-c160d3a24640",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "35"
+        }
+      ],
+      "parentId": "31"
+    },
+    {
+      "questionId": "71543e8d-7923-40ba-85dc-0f256abafb5c",
+      "order": 34,
+      "questionText": "Did it result in difficulty maintaining a conversation?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "30bb07b3-ba3e-47e8-b53b-39cd178b76f7",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "e284663f-38c1-420c-a05d-c160d3a24640",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "35"
+        }
+      ],
+      "parentId": "31"
+    },
+    {
+      "questionId": "de8f797f-2a78-4781-beb5-dd77e6eb9095",
+      "order": 35,
+      "questionText": "During this period of elevated or irritable mood, did you have a dramatic increase in your level of activity (e.g., socially, at work or school, or sexually), or an increase in purposeless physical activity due to agitation or restlessness (e.g., pacing, tapping your feet, starting and stopping tasks)?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "e7ea76b4-9f08-4540-b99b-c129d47df6bb",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "b73aa576-4fd5-450b-bba3-0d2c50cf04a7",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "37"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "1dc0d20d-7649-424e-b08d-6ae502e347f6",
+      "order": 36,
+      "questionText": "Can you give me some examples?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "e7ea76b4-9f08-4540-b99b-c129d47df6bb",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "b73aa576-4fd5-450b-bba3-0d2c50cf04a7",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "37"
+        }
+      ],
+      "parentId": "35"
+    },
+    {
+      "questionId": "3ab5771d-ac16-449a-bd51-cb72304d0112",
+      "order": 37,
+      "questionText": "Engage in a lot of activities that were potentially risky, but that you may not have recognized as risky at the time, such as spending too much money, uncharacteristic sexual activity, or impulsive financial decisions?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "1e8aa103-6d64-451d-ae31-1a89a34f45f2",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "326f3353-638b-4281-897b-1859260e8907",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "9b8956ad-8738-4d9c-ae6f-418c19f50d38",
+      "order": 38,
+      "questionText": "How long did this period of elevated or irritable mood last?",
+      "type": "text",
+      "isOptional": false,
+      "options": [],
+      "parentId": ""
+    },
+    {
+      "questionId": "1a2e1896-6efd-441c-8238-8f02ac227c13",
+      "order": 39,
+      "questionText": "Were you hospitalized because of these symptoms?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "e4ac2341-8347-4dbe-83d7-98f702e096c4",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "0b32bd71-63f4-4583-82f8-4acdd1d0cf21",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "f9d8aaad-7b6c-4dd3-9564-9bfda99130c2",
+      "order": 40,
+      "questionText": "During this period, were you acting or behaving very differently than is typical for you?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "e4ac2341-8347-4dbe-83d7-98f702e096c4",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "0b32bd71-63f4-4583-82f8-4acdd1d0cf21",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "42"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "4082c121-06f1-4504-b461-666f61359b32",
+      "order": 41,
+      "questionText": "How did this change in your behaviour affect your day to day functioning?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "40"
+    },
+    {
+      "questionId": "f0595520-ef48-40e0-bc41-939c60a58bb3",
+      "order": 42,
+      "questionText": "Did others notice these symptoms or comment that you were different than usual?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "5f5a2fc0-28f5-44e7-963d-8fcda499f164",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "2fe78cee-5a23-4c06-a5c7-2eb681dad09b",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "0"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "f90e78b0-422c-4135-b7cd-07ba327d6f8c",
+      "order": 43,
+      "questionText": "Were you using any substances just before these symptoms began? Do you think this may have caused your symptoms or made them worse?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "5f5a2fc0-28f5-44e7-963d-8fcda499f164",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "2fe78cee-5a23-4c06-a5c7-2eb681dad09b",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "45"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "a0c3eae8-678a-4fee-9ec2-2a1e4a615c4b",
+      "order": 44,
+      "questionText": "Did the symptoms persist even once the substance was not in your body anymore?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "5f5a2fc0-28f5-44e7-963d-8fcda499f164",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "2fe78cee-5a23-4c06-a5c7-2eb681dad09b",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": "45"
+        }
+      ],
+      "parentId": "43"
+    },
+    {
+      "questionId": "2168922a-0c04-4a27-8a3d-d91ae50a75af",
+      "order": 45,
+      "questionText": "Did you have any medical conditions just before these symptoms began? Do you think this may have caused your symptoms or made them worse?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "5f5a2fc0-28f5-44e7-963d-8fcda499f164",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "2fe78cee-5a23-4c06-a5c7-2eb681dad09b",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "0"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "a8c6d015-3beb-40de-8e66-9132dacf32e5",
+      "order": 46,
+      "questionText": "How old were you when these symptoms first began? (number of years)",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": ""
+    },
+    {
+      "questionId": "f8115a0f-7e61-412e-93dd-62ebad9d0f86",
+      "order": 47,
+      "questionText": "How old were you when these symptoms began to be a problem for you? (number of years)",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": ""
+    },
+    {
+      "questionId": "72704847-41c1-4208-8d7d-8338d4ebaded",
+      "order": 48,
+      "questionText": "In your life, how many separate episodes, similar to the one that we just discussed, have you experienced that lasted at least 4 days? (number of separate episodes)",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": ""
+    },
+    {
+      "questionId": "cee26fc1-0184-47c1-a6a6-5fef2093a769",
+      "order": 49,
+      "questionText": "On a scale from 0 to 10, 0 meaning not at all and 10 meaning extremely, how much are you bothered by your symptoms?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": ""
+    },
+    {
+      "questionId": "6f33ec95-04d5-48bc-a149-39d23f5cea55",
+      "order": 50,
+      "questionText": "Did these symptoms interfere with your life?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "81608e86-3f89-40c3-bfed-9a23b4ae7182",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "3fce527f-4e0b-40da-9309-1d3cf59c949f",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "0"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "85dcb6d1-584a-4c78-bd7b-bb754264844a",
+      "order": 51,
+      "questionText": "Did these symptoms make it hard for you to work, socialize, go to school, or take care of things at home?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "81608e86-3f89-40c3-bfed-9a23b4ae7182",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "3fce527f-4e0b-40da-9309-1d3cf59c949f",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": "52"
+        }
+      ],
+      "parentId": "50"
+    },
+    {
+      "questionId": "f84ce935-dca6-4638-be0e-68a14ffe343d",
+      "order": 52,
+      "questionText": "Were you using any substances just before these symptoms began? Do you think this may have caused your symptoms or made them worse?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "81608e86-3f89-40c3-bfed-9a23b4ae7182",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "3fce527f-4e0b-40da-9309-1d3cf59c949f",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "54"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "afb75ac6-c82a-4c2a-bd08-0127bf2a6fde",
+      "order": 53,
+      "questionText": "Did the symptoms persist even once the substance was not in your body anymore?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "81608e86-3f89-40c3-bfed-9a23b4ae7182",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "3fce527f-4e0b-40da-9309-1d3cf59c949f",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": "54"
+        }
+      ],
+      "parentId": "52"
+    },
+    {
+      "questionId": "7e19c7d5-e12d-4ad3-a266-939b34d5fac1",
+      "order": 54,
+      "questionText": "Did you have any medical conditions just before these symptoms began? Do you think this may have caused your symptoms or made them worse?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "81608e86-3f89-40c3-bfed-9a23b4ae7182",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "3fce527f-4e0b-40da-9309-1d3cf59c949f",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "0"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "663268eb-f76a-4635-a114-48cd0937a636",
+      "order": 55,
+      "questionText": "How old were you when these symptoms first began? (number of years)",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": ""
+    },
+    {
+      "questionId": "88e68f2c-82bf-4c10-aa7b-a7fa5f853dfc",
+      "order": 56,
+      "questionText": "How old were you when these symptoms began to be a problem for you? (number of years)",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": ""
+    },
+    {
+      "questionId": "6dbc2164-7bd8-4ef0-ad4f-1ab4618db2b9",
+      "order": 57,
+      "questionText": "In your life, how many separate episodes, similar to the one that we just discussed, have you experienced that lasted at least 1 week? (number of separate episodes)",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": ""
+    },
+    {
+      "questionId": "4a8608f3-4868-4801-a4f6-15edd2a65261",
+      "order": 58,
+      "questionText": "On a scale from 0 to 10, 0 meaning not at all and 10 meaning extremely, how much are you bothered by your symptoms?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": ""
+    }
+  ]
+}

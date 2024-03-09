@@ -1,0 +1,398 @@
+{
+  "formName": "PD",
+  "formOrder": "7",
+  "title": "Panic Attack Specifier and Panic Disorder",
+  "description": "Please carefully read and answer all questions presented in this form. It is essential to consider each question thoroughly to ensure accurate and reflective responses. ",
+  "tier": "tier-1",
+  "mandatory": "",
+  "questions": [
+    {
+      "questionId": "2479553e-57a5-4867-9b49-fb9cd70d9ea0",
+      "order": 1,
+      "questionText": "Have you ever had a panic attack, where you experienced an abrupt rush of physical symptoms or extreme fear?",
+      "type": "single-choice",
+      "isOptional": false,
+      "options": [
+        {
+          "optionId": "0301d45a-9559-4e0e-a9fa-027422d4ce34",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "c4fc203e-175f-41a3-ad5e-6f777c306cd1",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "0"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "4a2dc4f2-5311-4f87-95a5-ee51345ade5a",
+      "order": 2,
+      "questionText": "Do the physical symptoms or extreme fear intensify and reach a peak within minutes?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "0301d45a-9559-4e0e-a9fa-027422d4ce34",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "c4fc203e-175f-41a3-ad5e-6f777c306cd1",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "0"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "d4331bfe-590e-4053-a1c0-eca04dc70a9e",
+      "order": 3,
+      "questionText": "How long does this take?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "2"
+    },
+    {
+      "questionId": "89f1c252-47c8-4ab4-9bc4-0774b1bf21e0",
+      "order": 4,
+      "questionText": "Thinking about your worst panic attack, did you experience:",
+      "type": "multiple-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "ff273afd-0d4e-47be-80f3-be99b774dd91",
+          "value": "1",
+          "text": "Racing, pounding or skipping of your heart",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "2f4c225f-5b23-4866-ac96-07110bfc2f37",
+          "value": "1",
+          "text": "Sweating",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "66155170-fe45-48c7-9139-1ac9f3caa8fc",
+          "value": "1",
+          "text": "Trembling or shaking",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "4f900662-f119-4361-9ee9-0c989620e10d",
+          "value": "1",
+          "text": "Shortness of breath or difficulty breathing",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "300451ad-868e-4cc4-aa2c-8c7737d3c977",
+          "value": "1",
+          "text": "Feeling as though you were choking",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "fde31b33-e85e-47a0-8367-1a8c69a48dd2",
+          "value": "1",
+          "text": "Chest pain or discomfort",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "da634c2d-2060-464f-9490-64776957e2a3",
+          "value": "1",
+          "text": "Nausea or upset stomach",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "02fc73d1-c3d9-4290-83f3-dd47c9c0f6d6",
+          "value": "1",
+          "text": "Feeling dizzy, faint, or lightheaded",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "b42b0398-a94b-4e6d-9cad-0131e22cdca9",
+          "value": "1",
+          "text": "Chills or hot-flushes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "18898f3e-0a3f-49a1-8282-7ea388d2374b",
+          "value": "1",
+          "text": "Numbness or tingling",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "865932e3-fabb-41b8-93ba-d99f3b03da2c",
+          "value": "1",
+          "text": "Feeling detached from yourself or feeling as though things around you were unreal or strange",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "2a241e8b-8880-44fd-9948-f37b7f509ce5",
+          "value": "1",
+          "text": "Fear of going crazy or losing control",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "39da3408-f2ce-4771-8592-352edd436f73",
+          "value": "1",
+          "text": "Fear of dying",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "ba77f66a-5b96-4c21-a35f-46566b7078be",
+      "order": 5,
+      "questionText": "Do your panic attacks ever occur unexpectedly, out of the blue, or in situations where you did not expect to have one?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "0372683b-fca3-4a77-96dc-f947b014af0c",
+          "value": "1",
+          "text": "Yes",
+          "jump": "true",
+          "jumpTo": "0"
+        },
+        {
+          "optionId": "542d75fa-f121-4ae4-8ac3-c033f4db2e1e",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "6"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "58c7f81c-5cc7-424e-b063-e575af7d9792",
+      "order": 6,
+      "questionText": "What triggers your panic attacks?",
+      "type": "text",
+      "isOptional": false,
+      "options": [],
+      "parentId": "5"
+    },
+    {
+      "questionId": "2a52c04f-f2f5-4e4e-a5a0-09480cbd172e",
+      "order": 7,
+      "questionText": "Have you had more than one panic attack?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "7986bf78-9d05-429e-a0c8-b1959a6881cc",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "cc5dd0f4-226f-43e7-8c0b-1708303c4a4f",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "0"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "74344772-6cff-4446-98f8-a883202bc42d",
+      "order": 8,
+      "questionText": "How often do they occur?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "7"
+    },
+    {
+      "questionId": "410dbaeb-2d5b-4718-843a-5b6f069e9204",
+      "order": 9,
+      "questionText": "When was your most recent panic attack?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "7"
+    },
+    {
+      "questionId": "ba4a81e8-6f97-4130-8a0a-bd241888b8bb",
+      "order": 10,
+      "questionText": "When did you first start having panic attacks?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": "7"
+    },
+    {
+      "questionId": "9f078780-2094-4030-bd61-21337f589ea8",
+      "order": 11,
+      "questionText": "In the past month, have you:",
+      "type": "multiple-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "5016b824-e51e-475c-906c-8c1db36c24f0",
+          "value": "1",
+          "text": "Worried about having more panic attacks",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "afe70807-a333-4d81-90e1-ea065d20b4d2",
+          "value": "1",
+          "text": "Worried about what the panic attacks mean (e.g., that there is something seriously wrong with you, that you’re going crazy)",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "b3ad69a4-9775-4de3-bd79-06b901e7e37f",
+          "value": "1",
+          "text": "Worried about the consequences of panic attacks (e.g., losing control of your bowel or bladder, vomiting, or having a heart attack)",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "4024255a-dfdc-478e-bede-bf8910d3fbb0",
+          "value": "1",
+          "text": "Changed your behaviour because of the panic attacks (e.g., not leaving the house, ensuring an easy escape, avoiding exercise, more frequent visits to the doctor)",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "77d198cd-1535-4ab5-a3fd-474951731028",
+      "order": 12,
+      "questionText": "Were you using any substances just before these symptoms began? Do you think this may have caused your symptoms or made them worse?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "7d2e26a1-1719-44a6-bcb3-026867a3230f",
+          "value": "1",
+          "text": "Yes",
+          "jump": "true",
+          "jumpTo": "13"
+        },
+        {
+          "optionId": "7cda87c8-7587-4307-b081-b949209ef9af",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "14"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "8c107839-01bb-4725-ab2d-91fde7a3fd2a",
+      "order": 13,
+      "questionText": "Did the symptoms persist even once the substance was not in your body anymore?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "7d2e26a1-1719-44a6-bcb3-026867a3230f",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "7cda87c8-7587-4307-b081-b949209ef9af",
+          "value": "0",
+          "text": "No",
+          "jump": "false",
+          "jumpTo": ""
+        }
+      ],
+      "parentId": "12"
+    },
+    {
+      "questionId": "974f90e5-ba58-4fab-bdc6-d976ab7d606f",
+      "order": 14,
+      "questionText": "Did you have any medical conditions just before these symptoms began? Do you think this may have caused your symptoms or made them worse?",
+      "type": "single-choice",
+      "isOptional": "true",
+      "options": [
+        {
+          "optionId": "7d2e26a1-1719-44a6-bcb3-026867a3230f",
+          "value": "1",
+          "text": "Yes",
+          "jump": "false",
+          "jumpTo": ""
+        },
+        {
+          "optionId": "7cda87c8-7587-4307-b081-b949209ef9af",
+          "value": "0",
+          "text": "No",
+          "jump": "true",
+          "jumpTo": "0"
+        }
+      ],
+      "parentId": ""
+    },
+    {
+      "questionId": "d19f9d89-3796-4ed5-85ba-e46bfa863d63",
+      "order": 15,
+      "questionText": "In what ways do these symptoms cause problems for you?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": ""
+    },
+    {
+      "questionId": "6b3c0c24-f727-4fa5-83a4-b07aa1e8e7f5",
+      "order": 16,
+      "questionText": "How old were you when these symptoms first began? (number of years)",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": ""
+    },
+    {
+      "questionId": "8676ecb3-29a5-489d-8d6a-dd1ece3e19e3",
+      "order": 17,
+      "questionText": "How old were you when these symptoms began to be a problem for you? (number of years)",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": ""
+    },
+    {
+      "questionId": "700853b5-cd20-4124-ba4e-00d25a0455aa",
+      "order": 18,
+      "questionText": "On a scale from 0 to 10, 0 meaning not at all and 10 meaning extremely, how much are you bothered by your symptoms?",
+      "type": "text",
+      "isOptional": "true",
+      "options": [],
+      "parentId": ""
+    }
+  ]
+}
